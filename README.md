@@ -5,7 +5,7 @@ A button bar plugin for [novelyst](https://peter88213.github.io/novelyst)
 
 For more information, see the [project homepage](https://peter88213.github.io/novelyst_buttons) with description and download instructions.
 
-## Usage
+---
 
 # Credits
 
@@ -21,6 +21,7 @@ For more information, see the [project homepage](https://peter88213.github.io/no
 
 [Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
 
+---
 
 ## License
 
