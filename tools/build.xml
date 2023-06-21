@@ -17,10 +17,10 @@
 		    <arg value="make_pot.py"/>
 		    <arg value="${version}"/>
 		</exec>
-		<exec executable="python" failonerror="true">
+		<!--exec executable="python" failonerror="true">
 		    <arg value="translate_de.py"/>
 		    <arg value="${version}"/>
-		</exec>
+		</exec-->
 	</target>
 
 	<target name="dist" description="generate the distribution">		
@@ -41,12 +41,12 @@
 		
 		<fixcrlf encoding="utf-8" eol="lf" srcdir="${build-path}/${release}" includes="**/*.*" />
 				
-		<copy todir="${build-path}/${release}/locale"> 
+		<!--copy todir="${build-path}/${release}/locale"> 
 			<fileset dir="${i18n-path}/locale" />
-		</copy>
+		</copy-->
 		
 		<copy todir="${build-path}/${release}/icons"> 
-			<fileset dir="${i18n-path}/icons" />
+			<fileset dir="../icons" />
 		</copy>
 		
 		<zip destfile="${dist-path}/${release}.zip" basedir="${build-path}" />

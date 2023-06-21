@@ -2,13 +2,13 @@
 
 The [novelyst](https://peter88213.github.io/novelyst/) Python program helps authors organize novels.  
 
-*novelyst_buttons* is a plugin providing . 
+*novelyst_buttons* is a plugin providing a button bar. 
 
 ![Screenshot](Screenshots/screen01.png)
 
 ## Requirements
 
-- [novelyst](https://peter88213.github.io/novelyst/) version 4.28+
+- [novelyst](https://peter88213.github.io/novelyst/) version 4.29+
 
 ## Download and install
 
@@ -23,7 +23,25 @@ The [novelyst](https://peter88213.github.io/novelyst/) Python program helps auth
 
 ## Usage
 
+See the [instructions for use](usage)
 
+---
+
+# Credits
+
+[Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
+
+[Save icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/save)
+
+[Refresh icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/refresh)
+
+[Files and folders icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/files-and-folders)
+
+[Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
+
+[Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
+
+---
 
 ## License
 

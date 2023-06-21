@@ -7,6 +7,12 @@
 
 ### v0.1.0
 
-- Release under the GPLv3 license.
+Buttons for
+- Save
+- Reload
+- Lock/unlock
+- Export manuscript
+- Toggle content viewer
+- Toggle properties
 
-Compatibility: novelyst v4.28 API
+Compatibility: novelyst v4.29 API

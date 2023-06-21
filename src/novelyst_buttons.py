@@ -25,7 +25,7 @@ class Plugin:
         on_quit() -- Actions to be performed when novelyst is closed.               
     """
     VERSION = '@release'
-    NOVELYST_API = '4.20'
+    NOVELYST_API = '4.29'
     DESCRIPTION = 'Button bar plugin'
     URL = 'https://peter88213.github.io/novelyst'
 
@@ -37,35 +37,63 @@ class Plugin:
         """
         self._ui = ui
 
-        iconPath = f'{os.path.dirname(sys.argv[0])}/icons'.replace('\\', '/')
+        iconPath = f'{os.path.dirname(sys.argv[0])}/plugin/icons'.replace('\\', '/')
 
         # Add a button bar to the editor window.
         self._buttonBar = tk.Frame(self._ui.mainWindow)
         self._buttonBar.pack(expand=False, before=self._ui.appWindow, fill=tk.BOTH)
 
+        # "Save" button.
         saveIcon = tk.PhotoImage(file=f'{iconPath}/diskette.png')
         self._saveButton = ttk.Button(self._buttonBar, image=saveIcon, command=self._ui.save_project)
         self._saveButton.pack(side=tk.LEFT)
         self._saveButton.image = saveIcon
 
+        # "Reload" button.
+        reloadIcon = tk.PhotoImage(file=f'{iconPath}/refresh.png')
+        self._reloadButton = ttk.Button(self._buttonBar, image=reloadIcon, command=self._ui.reload_project)
+        self._reloadButton.pack(side=tk.LEFT)
+        self._reloadButton.image = reloadIcon
+
+        # "Lock/Unlock" button.
         lockIcon = tk.PhotoImage(file=f'{iconPath}/padlock.png')
-        self._lockButton = ttk.Button(self._buttonBar, image=lockIcon, command=self._toggle_lock)
+        self._lockButton = ttk.Button(self._buttonBar, image=lockIcon, command=self._ui.toggle_lock)
         self._lockButton.pack(side=tk.LEFT)
         self._lockButton.image = lockIcon
+
+        # "Manuscript" button.
+        manuscriptIcon = tk.PhotoImage(file=f'{iconPath}/manuscript.png')
+        self._manuscriptButton = ttk.Button(self._buttonBar, image=manuscriptIcon, command=self._ui.export_manuscript)
+        self._manuscriptButton.pack(side=tk.LEFT)
+        self._manuscriptButton.image = manuscriptIcon
+
+        # "Toggle properties" button.
+        propertiesIcon = tk.PhotoImage(file=f'{iconPath}/info.png')
+        self._propertiesButton = ttk.Button(self._buttonBar, image=propertiesIcon, command=self._ui.toggle_properties)
+        self._propertiesButton.pack(side=tk.RIGHT)
+        self._propertiesButton.image = propertiesIcon
+
+        # "Toggle content viewer" button.
+        viewerIcon = tk.PhotoImage(file=f'{iconPath}/file.png')
+        self._viewerButton = ttk.Button(self._buttonBar, image=viewerIcon, command=self._ui.toggle_viewer)
+        self._viewerButton.pack(side=tk.RIGHT)
+        self._viewerButton.image = viewerIcon
 
     def disable_menu(self):
         """Disable menu entries when no project is open."""
         self._saveButton.config(state='disabled')
+        self._reloadButton.config(state='disabled')
         self._lockButton.config(state='disabled')
+        self._manuscriptButton.config(state='disabled')
+        self._propertiesButton.config(state='disabled')
+        self._viewerButton.config(state='disabled')
 
     def enable_menu(self):
         """Enable menu entries when a project is open."""
         self._saveButton.config(state='normal')
+        self._reloadButton.config(state='normal')
         self._lockButton.config(state='normal')
-
-    def _toggle_lock(self):
-        if self._ui.isLocked:
-            self._ui.unlock()
-        else:
-            self._ui.lock()
+        self._manuscriptButton.config(state='normal')
+        self._propertiesButton.config(state='normal')
+        self._viewerButton.config(state='normal')
 

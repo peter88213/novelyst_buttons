@@ -25,7 +25,6 @@ os.makedirs(BUILD, exist_ok=True)
 
 def main():
     inliner.run(SOURCE_FILE, TARGET_FILE, 'nvpluginlib', '../../novelyst_buttons/src/')
-    inliner.run(TARGET_FILE, TARGET_FILE, 'novelystlib', '../../novelyst/src/')
     inliner.run(TARGET_FILE, TARGET_FILE, 'pywriter', '../../PyWriter/src/')
     print('Done.')
 
