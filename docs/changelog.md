@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### v0.4.0
+
+- Add online help.
+
+Compatibility: novelyst v4.29 API
+
 ### v0.3.0
 
 - Optionally disable the hovertips on setup.

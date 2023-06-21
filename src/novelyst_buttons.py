@@ -13,6 +13,7 @@ import tkinter as tk
 from tkinter import ttk
 import locale
 import gettext
+import webbrowser
 
 APPLICATION = 'Button bar plugin'
 
@@ -47,6 +48,7 @@ class Plugin:
     NOVELYST_API = '4.29'
     DESCRIPTION = 'Button bar plugin'
     URL = 'https://peter88213.github.io/novelyst_buttons'
+    _HELP_URL = 'https://peter88213.github.io/novelyst_buttons/usage'
 
     def install(self, ui):
         """Add a button bar.
@@ -55,6 +57,9 @@ class Plugin:
             ui -- reference to the NovelystTk instance of the application.
         """
         self._ui = ui
+
+        # Add an entry to the Help menu.
+        self._ui.helpMenu.add_command(label=_('Buttonbar plugin Online help'), command=lambda: webbrowser.open(self._HELP_URL))
 
         iconPath = f'{os.path.dirname(sys.argv[0])}/plugin/icons'.replace('\\', '/')
 

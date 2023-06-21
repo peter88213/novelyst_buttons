@@ -29,17 +29,17 @@ message is displayed during setup. However, the plugin still works.
 
 # Operation
 
-![Save](Screenshots/diskette.png) Save the project. Same as **File > Save** or **Ctrl-S**.
+![Save](icons/24/diskette.png) Save the project. Same as **File > Save** or **Ctrl-S**.
 
-![Reload](Screenshots/refresh.png) Reload the project, e.g. after editing. Same as **File > Reload** or **Ctrl-R**.
+![Reload](icons/24/refresh.png) Reload the project, e.g. after editing. Same as **File > Reload** or **Ctrl-R**.
 
-![Lock/Unlock](Screenshots/padlock.png) Toggle the lock status of the project.
+![Lock/Unlock](icons/24/padlock.png) Toggle the lock status of the project.
 
-![Export manuscript](Screenshots/manuscript.png) Export the manuscript for editing.
+![Export manuscript](icons/24/manuscript.png) Export the manuscript for editing.
 
-![Toggle Text viewer](Screenshots/file.png) Toggle Text viewer. Same as **View > Toggle Text viewer** or **Ctrl-T**.
+![Toggle Text viewer](icons/24/file.png) Toggle Text viewer. Same as **View > Toggle Text viewer** or **Ctrl-T**.
 
-![Toggle Properties](Screenshots/info.png) Toggle Properties. Same as **View > Toggle Properties** or **Ctrl-Alt-T**.
+![Toggle Properties](icons/24/info.png) Toggle Properties. Same as **View > Toggle Properties** or **Ctrl-Alt-T**.
 
 ---
 
