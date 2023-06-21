@@ -7,7 +7,7 @@ For more information, see the [project homepage](https://peter88213.github.io/no
 
 ---
 
-# Credits
+## Credits
 
 [Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
 

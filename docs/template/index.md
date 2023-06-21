@@ -31,7 +31,7 @@ See the [instructions for use](usage)
 
 ---
 
-# Credits
+## Credits
 
 [Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
 
