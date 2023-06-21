@@ -10,6 +10,21 @@ A [novelyst](https://peter88213.github.io/novelyst/) plugin providing buttons fo
 
 If [novelyst](https://peter88213.github.io/novelyst/) is installed, the setup script auto-installs the *novelyst_buttons* plugin in the *novelyst* plugin directory.
 
+## Options
+
+### Select icon size
+
+Default is **Small icons** (16x16 pixels). You can select **Big icons** (24x24 pixels), if you like. 
+
+### Disable the hovertips
+
+Hovertips are small text windows that display the command when the mouse pointer hovers over the icon. 
+They are enabled by default. If you don't need them, you can save system resources by ticking the 
+**Disable the hovertips** checkbox.
+
+**Note:** Hovertips will only show up if you have the *idlelib* package installed. If not, a warning 
+message is displayed during setup. However, the plugin still works.
+
 ---
 
 # Operation

@@ -31,20 +31,7 @@ def output(text):
     processInfo.config(text=('\n').join(message))
 
 
-if __name__ == '__main__':
-    scriptPath = os.path.abspath(sys.argv[0])
-    scriptDir = os.path.dirname(scriptPath)
-    os.chdir(scriptDir)
-
-    # Open a tk window.
-    root.geometry("600x200")
-    root.title(f'Install {PLUGIN}{VERSION}')
-    header = Label(root, text='')
-    header.pack(padx=5, pady=5)
-
-    # Prepare the messaging area.
-    processInfo.pack(padx=5, pady=5)
-
+def install(iconSize=16, disableHovertips=False):
     # Install the plugin.
     homePath = str(Path.home()).replace('\\', '/')
     novelystDir = f'{homePath}/.pywriter/novelyst'
@@ -52,7 +39,15 @@ if __name__ == '__main__':
         if os.path.isfile(f'./{PLUGIN}'):
             pluginDir = f'{novelystDir}/plugin'
             os.makedirs(pluginDir, exist_ok=True)
-            copyfile(PLUGIN, f'{pluginDir}/{PLUGIN}')
+            if disableHovertips:
+                # Patch the code.
+                with open(PLUGIN, 'r', encoding='utf-8') as f:
+                    source = f.read()
+                source = source.replace('ENABLE_HOVERTIPS = True', 'ENABLE_HOVERTIPS = False')
+                with open(f'{pluginDir}/{PLUGIN}', 'w', encoding='utf-8') as f:
+                    f.write(source)
+            else:
+                copyfile(PLUGIN, f'{pluginDir}/{PLUGIN}')
             output(f'Sucessfully installed "{PLUGIN}" at "{os.path.normpath(pluginDir)}"')
         else:
             output(f'ERROR: file "{PLUGIN}" not found.')
@@ -67,12 +62,41 @@ if __name__ == '__main__':
         output(f'Copying "locale"')
 
         # Install the icon files.
-        copytree('icons', f'{pluginDir}/icons', dirs_exist_ok=True)
+        copytree(f'icons/{iconSize}', f'{pluginDir}/icons', dirs_exist_ok=True)
         output(f'Copying "icons"')
     else:
         output(f'ERROR: Cannot find a novelyst installation at "{novelystDir}"')
 
-    root.quitButton = Button(text="Quit", command=quit)
-    root.quitButton.config(height=1, width=30)
+
+if __name__ == '__main__':
+    scriptPath = os.path.abspath(sys.argv[0])
+    scriptDir = os.path.dirname(scriptPath)
+    os.chdir(scriptDir)
+
+    # Open a tk window.
+    root.geometry("600x400")
+    root.title(f'Install {PLUGIN}{VERSION}')
+    header = Label(root, text='')
+    header.pack(padx=5, pady=5)
+
+    # Icon size selector.
+    smallIcon = PhotoImage(file='icons/16/diskette.png')
+    bigIcon = PhotoImage(file='icons/24/diskette.png')
+    iconSize = IntVar(root, value=16)
+    Label(root, image=smallIcon).pack()
+    Radiobutton(root, text='Small icons', variable=iconSize, value=16).pack()
+    Label(root, image=bigIcon).pack()
+    Radiobutton(root, text='Big icons', variable=iconSize, value=24).pack()
+
+    # Disable hovertips.
+    disableHovertips = BooleanVar(root, value=False)
+    Checkbutton(root, text='Disable the hovertips', variable=disableHovertips).pack()
+
+    # Prepare the messaging area.
+    processInfo.pack(padx=5, pady=5)
+
+    Button(text="Install", height=1, width=30, command=lambda:install(iconSize.get(), disableHovertips.get())).pack()
+
+    root.quitButton = Button(text="Quit", height=1, width=30, command=quit)
     root.quitButton.pack(padx=5, pady=5)
     root.mainloop()

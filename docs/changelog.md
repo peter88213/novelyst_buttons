@@ -4,6 +4,13 @@
 
 ## Changelog
 
+### v0.3.0
+
+- Optionally disable the hovertips on setup.
+- Offer two different icon sizes on startup.
+
+Compatibility: novelyst v4.29 API
+
 ### v0.2.1
 
 - Make it run on Linux systems without idle installed.

@@ -31,6 +31,8 @@ except:
     def _(message):
         return message
 
+ENABLE_HOVERTIPS = True
+
 
 class Plugin:
     """Botton bar plugin class.
@@ -96,17 +98,18 @@ class Plugin:
         self._viewerButton.pack(side=tk.RIGHT)
         self._viewerButton.image = viewerIcon
 
-        try:
-            from idlelib.tooltip import Hovertip
-        except ModuleNotFoundError:
-            pass
-        else:
-            Hovertip(self._saveButton, _('Save'))
-            Hovertip(self._reloadButton, _('Reload'))
-            Hovertip(self._lockButton, _('Lock/unlock'))
-            Hovertip(self._manuscriptButton, _('Export Manuscript for editing'))
-            Hovertip(self._propertiesButton, _('Toggle Properties'))
-            Hovertip(self._viewerButton, _('Toggle Text viewer'))
+        if ENABLE_HOVERTIPS:
+            try:
+                from idlelib.tooltip import Hovertip
+            except ModuleNotFoundError:
+                pass
+            else:
+                Hovertip(self._saveButton, _('Save'))
+                Hovertip(self._reloadButton, _('Reload'))
+                Hovertip(self._lockButton, _('Lock/unlock'))
+                Hovertip(self._manuscriptButton, _('Export Manuscript for editing'))
+                Hovertip(self._propertiesButton, _('Toggle Properties'))
+                Hovertip(self._viewerButton, _('Toggle Text viewer'))
 
     def disable_menu(self):
         """Disable menu entries when no project is open."""
