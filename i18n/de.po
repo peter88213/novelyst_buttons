@@ -1,4 +1,4 @@
-# novelyst_plugin Dictionary (English-German)
+# novelyst_buttons Dictionary (English-German)
 # Copyright (C) 2022 Peter Triesberger
 #
 msgid ""

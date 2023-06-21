@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>novelyst_plugin</name>
+	<name>novelyst_buttons</name>
 	<comment></comment>
 	<projects>
+		<project>PyWriter</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -12,5 +13,6 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
 </projectDescription>

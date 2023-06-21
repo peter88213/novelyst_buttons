@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Install the novelyst_plugin plugin. 
+"""Install the novelyst_buttons plugin. 
 
 Version @release
 
 Copyright (c) 2023 Peter Triesberger
-For further information see https://github.com/peter88213/novelyst_plugin
+For further information see https://github.com/peter88213/novelyst_buttons
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
@@ -18,7 +18,7 @@ except ModuleNotFoundError:
     print('The tkinter module is missing. Please install the tk support package for your python3 version.')
     sys.exit(1)
 
-PLUGIN = 'novelyst_plugin.py'
+PLUGIN = 'novelyst_buttons.py'
 VERSION = ' @release'
 
 root = Tk()
@@ -61,6 +61,9 @@ if __name__ == '__main__':
         copytree('locale', f'{novelystDir}/locale', dirs_exist_ok=True)
         output(f'Copying "locale"')
 
+        # Install the icon files.
+        copytree('icons', f'{novelystDir}/icons', dirs_exist_ok=True)
+        output(f'Copying "icons"')
     else:
         output(f'ERROR: Cannot find a novelyst installation at "{novelystDir}"')
 
