@@ -2,7 +2,7 @@
 
 The [novelyst](https://peter88213.github.io/novelyst/) Python program helps authors organize novels.  
 
-*novelyst_buttons* is a plugin providing a button bar. 
+*novelyst_buttons* is a plugin providing buttons for frequently used actions. 
 
 ![Screenshot](Screenshots/screen01.png)
 

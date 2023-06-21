@@ -2,7 +2,7 @@
 
 --- 
 
-A [novelyst](https://peter88213.github.io/novelyst/) plugin providing a button bar. 
+A [novelyst](https://peter88213.github.io/novelyst/) plugin providing buttons for frequently used actions. 
 
 ---
 
@@ -10,10 +10,27 @@ A [novelyst](https://peter88213.github.io/novelyst/) plugin providing a button b
 
 If [novelyst](https://peter88213.github.io/novelyst/) is installed, the setup script auto-installs the *novelyst_buttons* plugin in the *novelyst* plugin directory.
 
-
 ---
 
 # Operation
+
+Just click the button.
+
+---
+
+# Credits
+
+[Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
+
+[Save icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/save)
+
+[Refresh icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/refresh)
+
+[Files and folders icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/files-and-folders)
+
+[Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
+
+[Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
 
 ---
 
