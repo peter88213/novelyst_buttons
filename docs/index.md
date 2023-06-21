@@ -10,11 +10,15 @@ The [novelyst](https://peter88213.github.io/novelyst/) Python program helps auth
 
 - [novelyst](https://peter88213.github.io/novelyst/) version 4.29+
 
+### Note for Linux users
+
+To see the tooltips, please make sure that your Python3 installation has the *idlelib* module. On Ubuntu, for example, it is not available out of the box and must be installed via a separate package named *idle3*. 
+
 ## Download and install
 
-[Download the latest release (version 0.2.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v0.2.0.zip)
+[Download the latest release (version 0.2.1)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v0.2.1.zip)
 
-- Extract the "novelyst_buttons_v0.2.0" folder from the downloaded zipfile "novelyst_buttons_v0.2.0.zip".
+- Extract the "novelyst_buttons_v0.2.1" folder from the downloaded zipfile "novelyst_buttons_v0.2.1.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---

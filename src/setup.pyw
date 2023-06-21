@@ -37,7 +37,7 @@ if __name__ == '__main__':
     os.chdir(scriptDir)
 
     # Open a tk window.
-    root.geometry("600x150")
+    root.geometry("600x200")
     root.title(f'Install {PLUGIN}{VERSION}')
     header = Label(root, text='')
     header.pack(padx=5, pady=5)
@@ -56,6 +56,11 @@ if __name__ == '__main__':
             output(f'Sucessfully installed "{PLUGIN}" at "{os.path.normpath(pluginDir)}"')
         else:
             output(f'ERROR: file "{PLUGIN}" not found.')
+
+        try:
+            from idlelib.tooltip import Hovertip
+        except ModuleNotFoundError:
+            output('\nThe idlelib module is missing.\nTo see the tooltips, please install the idle3 package for your python3 version.\n')
 
         # Install the localization files.
         copytree('locale', f'{novelystDir}/locale', dirs_exist_ok=True)

@@ -11,7 +11,6 @@ import os
 import sys
 import tkinter as tk
 from tkinter import ttk
-from idlelib.tooltip import Hovertip
 import locale
 import gettext
 
@@ -66,42 +65,48 @@ class Plugin:
         self._saveButton = ttk.Button(self._buttonBar, image=saveIcon, command=self._ui.save_project)
         self._saveButton.pack(side=tk.LEFT)
         self._saveButton.image = saveIcon
-        Hovertip(self._saveButton, _('Save'))
 
         # "Reload" button.
         reloadIcon = tk.PhotoImage(file=f'{iconPath}/refresh.png')
         self._reloadButton = ttk.Button(self._buttonBar, image=reloadIcon, command=self._ui.reload_project)
         self._reloadButton.pack(side=tk.LEFT)
         self._reloadButton.image = reloadIcon
-        Hovertip(self._reloadButton, _('Reload'))
 
         # "Lock/Unlock" button.
         lockIcon = tk.PhotoImage(file=f'{iconPath}/padlock.png')
         self._lockButton = ttk.Button(self._buttonBar, image=lockIcon, command=self._ui.toggle_lock)
         self._lockButton.pack(side=tk.LEFT)
         self._lockButton.image = lockIcon
-        Hovertip(self._lockButton, _('Lock/unlock'))
 
         # "Manuscript" button.
         manuscriptIcon = tk.PhotoImage(file=f'{iconPath}/manuscript.png')
         self._manuscriptButton = ttk.Button(self._buttonBar, image=manuscriptIcon, command=self._ui.export_manuscript)
         self._manuscriptButton.pack(side=tk.LEFT)
         self._manuscriptButton.image = manuscriptIcon
-        Hovertip(self._manuscriptButton, _('Export Manuscript for editing'))
 
         # "Toggle properties" button.
         propertiesIcon = tk.PhotoImage(file=f'{iconPath}/info.png')
         self._propertiesButton = ttk.Button(self._buttonBar, image=propertiesIcon, command=self._ui.toggle_properties)
         self._propertiesButton.pack(side=tk.RIGHT)
         self._propertiesButton.image = propertiesIcon
-        Hovertip(self._propertiesButton, _('Toggle Properties'))
 
         # "Toggle content viewer" button.
         viewerIcon = tk.PhotoImage(file=f'{iconPath}/file.png')
         self._viewerButton = ttk.Button(self._buttonBar, image=viewerIcon, command=self._ui.toggle_viewer)
         self._viewerButton.pack(side=tk.RIGHT)
         self._viewerButton.image = viewerIcon
-        Hovertip(self._viewerButton, _('Toggle Text viewer'))
+
+        try:
+            from idlelib.tooltip import Hovertip
+        except ModuleNotFoundError:
+            pass
+        else:
+            Hovertip(self._saveButton, _('Save'))
+            Hovertip(self._reloadButton, _('Reload'))
+            Hovertip(self._lockButton, _('Lock/unlock'))
+            Hovertip(self._manuscriptButton, _('Export Manuscript for editing'))
+            Hovertip(self._propertiesButton, _('Toggle Properties'))
+            Hovertip(self._viewerButton, _('Toggle Text viewer'))
 
     def disable_menu(self):
         """Disable menu entries when no project is open."""
