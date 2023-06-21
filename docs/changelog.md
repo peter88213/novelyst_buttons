@@ -4,6 +4,14 @@
 
 ## Changelog
 
+### v0.2.0
+
+- Add tooltips.
+- Fix the homepage link.
+- Fix instructions for use.
+
+Compatibility: novelyst v4.29 API
+
 
 ### v0.1.0
 

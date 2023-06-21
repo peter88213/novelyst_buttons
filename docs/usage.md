@@ -2,7 +2,7 @@
 
 --- 
 
-A [novelyst](https://peter88213.github.io/novelyst/) plugin providing a book/series collection manager. 
+A [novelyst](https://peter88213.github.io/novelyst/) plugin providing a button bar. 
 
 ---
 

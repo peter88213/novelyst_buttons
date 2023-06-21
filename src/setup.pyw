@@ -58,8 +58,8 @@ if __name__ == '__main__':
             output(f'ERROR: file "{PLUGIN}" not found.')
 
         # Install the localization files.
-        # copytree('locale', f'{novelystDir}/locale', dirs_exist_ok=True)
-        # output(f'Copying "locale"')
+        copytree('locale', f'{novelystDir}/locale', dirs_exist_ok=True)
+        output(f'Copying "locale"')
 
         # Install the icon files.
         copytree('icons', f'{pluginDir}/icons', dirs_exist_ok=True)
