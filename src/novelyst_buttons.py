@@ -36,7 +36,7 @@ ENABLE_HOVERTIPS = True
 
 
 class Plugin:
-    """Botton bar plugin class.
+    """Button bar plugin class.
     
     Public methods:
         disable_menu() -- disable menu entries when no project is open.
@@ -46,7 +46,7 @@ class Plugin:
     """
     VERSION = '@release'
     NOVELYST_API = '4.30'
-    DESCRIPTION = 'Button bar plugin'
+    DESCRIPTION = 'A button bar'
     URL = 'https://peter88213.github.io/novelyst_buttons'
     _HELP_URL = 'https://peter88213.github.io/novelyst_buttons/usage'
 
