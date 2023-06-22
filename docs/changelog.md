@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### v1.0.0
+
+- Update API.
+
+Compatibility: novelyst v4.30 API
+
 ### v0.4.0
 
 - Add online help.
