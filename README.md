@@ -20,6 +20,7 @@ For more information, see the [project homepage](https://peter88213.github.io/no
 
 [Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
 
+[Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
 
 ## License
 

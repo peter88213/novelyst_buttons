@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### v1.1.0
+
+- Add "Discard manuscript" button.
+
+Compatibility: novelyst v4.31 API
+
 ### v1.0.0
 
 - Update API.

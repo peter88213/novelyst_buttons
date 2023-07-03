@@ -35,6 +35,8 @@ message is displayed during setup. However, the plugin still works.
 
 ![Lock/Unlock](icons/24/padlock.png) Toggle the lock status of the project.
 
+![LDiscard manuscript](icons/24/trash.png) Discard the current manuscript. Same as **File > Discard manuscript**
+
 ![Export manuscript](icons/24/manuscript.png) Export the manuscript for editing.
 
 ![Toggle Text viewer](icons/24/file.png) Toggle Text viewer. Same as **View > Toggle Text viewer** or **Ctrl-T**.
@@ -56,6 +58,8 @@ message is displayed during setup. However, the plugin still works.
 [Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
 
 [Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
+
+[Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
 
 ---
 

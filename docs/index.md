@@ -16,9 +16,9 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 1.0.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.0.0.zip)
+[Download the latest release (version 1.1.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.1.0.zip)
 
-- Extract the "novelyst_buttons_v1.0.0" folder from the downloaded zipfile "novelyst_buttons_v1.0.0.zip".
+- Extract the "novelyst_buttons_v1.1.0" folder from the downloaded zipfile "novelyst_buttons_v1.1.0.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---
@@ -44,6 +44,8 @@ See the [instructions for use](usage)
 [Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
 
 [Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
+
+[Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
 
 ---
 

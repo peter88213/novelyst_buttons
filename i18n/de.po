@@ -3,9 +3,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0.0\n"
-"POT-Creation-Date: 2023-06-22 09:23:51\n"
-"PO-Revision-Date: 2023-06-22 09:23:52\n"
+"Project-Id-Version: 1.1.0\n"
+"POT-Creation-Date: 2023-07-04 00:24:31\n"
+"PO-Revision-Date: 2023-07-04 00:24:31\n"
 "Last-Translator: Peter Triesberger\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,9 @@ msgstr ""
 
 msgid "Buttonbar plugin Online help"
 msgstr "Buttonbar-Plugin Online-Hilfe"
+
+msgid "Discard manuscript"
+msgstr "Manuskript verwerfen"
 
 msgid "Export Manuscript for editing"
 msgstr "Manuskript zum Bearbeiten exportieren"
