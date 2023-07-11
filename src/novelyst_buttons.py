@@ -66,14 +66,14 @@ class Plugin:
 
         # Add a button bar to the editor window.
         self._buttonBar = tk.Frame(self._ui.mainWindow)
-        self._buttonBar.pack(expand=False, before=self._ui.appWindow, fill=tk.BOTH)
+        self._buttonBar.pack(expand=False, before=self._ui.appWindow, fill='both')
 
         # "Save" button.
         saveIcon = tk.PhotoImage(file=f'{iconPath}/diskette.png')
         self._saveButton = ttk.Button(self._buttonBar,
                                       image=saveIcon,
                                       command=self._ui.save_project)
-        self._saveButton.pack(side=tk.LEFT)
+        self._saveButton.pack(side='left')
         self._saveButton.image = saveIcon
 
         # "Reload" button.
@@ -81,7 +81,7 @@ class Plugin:
         self._reloadButton = ttk.Button(self._buttonBar,
                                         image=reloadIcon,
                                         command=self._ui.reload_project)
-        self._reloadButton.pack(side=tk.LEFT)
+        self._reloadButton.pack(side='left')
         self._reloadButton.image = reloadIcon
 
         # "Lock/Unlock" button.
@@ -89,7 +89,7 @@ class Plugin:
         self._lockButton = ttk.Button(self._buttonBar,
                                       image=lockIcon,
                                       command=self._ui.toggle_lock)
-        self._lockButton.pack(side=tk.LEFT)
+        self._lockButton.pack(side='left')
         self._lockButton.image = lockIcon
 
         # "Discard manuscript" button.
@@ -97,7 +97,7 @@ class Plugin:
         self._discardButton = ttk.Button(self._buttonBar,
                                             image=discardIcon,
                                             command=self._ui.discard_manuscript)
-        self._discardButton.pack(side=tk.LEFT)
+        self._discardButton.pack(side='left')
         self._discardButton.image = discardIcon
 
         # "Manuscript" button.
@@ -105,7 +105,7 @@ class Plugin:
         self._manuscriptButton = ttk.Button(self._buttonBar,
                                             image=manuscriptIcon,
                                             command=lambda:self._ui.export_document('_manuscript'))
-        self._manuscriptButton.pack(side=tk.LEFT)
+        self._manuscriptButton.pack(side='left')
         self._manuscriptButton.image = manuscriptIcon
 
         # "Toggle properties" button.
@@ -113,7 +113,7 @@ class Plugin:
         self._propertiesButton = ttk.Button(self._buttonBar,
                                             image=propertiesIcon,
                                             command=self._ui.toggle_properties)
-        self._propertiesButton.pack(side=tk.RIGHT)
+        self._propertiesButton.pack(side='right')
         self._propertiesButton.image = propertiesIcon
 
         # "Toggle content viewer" button.
@@ -121,7 +121,7 @@ class Plugin:
         self._viewerButton = ttk.Button(self._buttonBar,
                                         image=viewerIcon,
                                         command=self._ui.toggle_viewer)
-        self._viewerButton.pack(side=tk.RIGHT)
+        self._viewerButton.pack(side='right')
         self._viewerButton.image = viewerIcon
 
         if ENABLE_HOVERTIPS:
