@@ -5,6 +5,9 @@ A button bar plugin for [novelyst](https://peter88213.github.io/novelyst)
 
 For more information, see the [project homepage](https://peter88213.github.io/novelyst_buttons) with description and download instructions.
 
+## Feedback? Ideas? Feature requests?
+
+You can go to the [novelyst "discussions" forum](https://github.com/peter88213/novelyst/discussions) and start a thread.
 
 ## Credits
 
