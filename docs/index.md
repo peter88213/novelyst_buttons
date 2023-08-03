@@ -47,6 +47,10 @@ See the [instructions for use](usage)
 
 [Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
 
+[Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
+
+[Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
+
 ---
 
 ## License
