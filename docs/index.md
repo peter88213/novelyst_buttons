@@ -8,7 +8,7 @@ The [novelyst](https://peter88213.github.io/novelyst/) Python program helps auth
 
 ## Requirements
 
-- [novelyst](https://peter88213.github.io/novelyst/) version 4.31+
+- [novelyst](https://peter88213.github.io/novelyst/) version 4.33+
 
 ### Note for Linux users
 
@@ -16,9 +16,9 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 1.1.1)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.1.1.zip)
+[Download the latest release (version 1.2.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.2.0.zip)
 
-- Extract the "novelyst_buttons_v1.1.1" folder from the downloaded zipfile "novelyst_buttons_v1.1.1.zip".
+- Extract the "novelyst_buttons_v1.2.0" folder from the downloaded zipfile "novelyst_buttons_v1.2.0.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---

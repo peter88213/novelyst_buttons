@@ -25,6 +25,10 @@ You can go to the [novelyst "discussions" forum](https://github.com/peter88213/n
 
 [Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
 
+[Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
+
+[Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
+
 ## License
 
 This is Open Source software, and the *novelyst_buttons* plugin is licensed under GPLv3. See the

@@ -45,7 +45,7 @@ class Plugin:
         on_quit() -- Actions to be performed when novelyst is closed.               
     """
     VERSION = '@release'
-    NOVELYST_API = '4.31'
+    NOVELYST_API = '4.33'
     DESCRIPTION = 'A button bar'
     URL = 'https://peter88213.github.io/novelyst_buttons'
     _HELP_URL = 'https://peter88213.github.io/novelyst_buttons/usage'
@@ -108,6 +108,22 @@ class Plugin:
         self._manuscriptButton.pack(side='left')
         self._manuscriptButton.image = manuscriptIcon
 
+        # "Go back" button.
+        goBackIcon = tk.PhotoImage(file=f'{iconPath}/previous.png')
+        self._goBackButton = ttk.Button(self._buttonBar,
+                                            image=goBackIcon,
+                                            command=self._ui.tv.go_back)
+        self._goBackButton.pack(side='left')
+        self._goBackButton.image = goBackIcon
+
+        # "Go forward" button.
+        goForwardIcon = tk.PhotoImage(file=f'{iconPath}/next.png')
+        self._goForwardButton = ttk.Button(self._buttonBar,
+                                            image=goForwardIcon,
+                                            command=self._ui.tv.go_forward)
+        self._goForwardButton.pack(side='left')
+        self._goForwardButton.image = goForwardIcon
+
         # "Toggle properties" button.
         propertiesIcon = tk.PhotoImage(file=f'{iconPath}/info.png')
         self._propertiesButton = ttk.Button(self._buttonBar,
@@ -135,6 +151,8 @@ class Plugin:
                 Hovertip(self._lockButton, _('Lock/unlock'))
                 Hovertip(self._discardButton, _('Discard manuscript'))
                 Hovertip(self._manuscriptButton, _('Export Manuscript for editing'))
+                Hovertip(self._goBackButton, _('Go back in the browsing history'))
+                Hovertip(self._goForwardButton, _('Go forward in the browsing history'))
                 Hovertip(self._propertiesButton, _('Toggle Properties'))
                 Hovertip(self._viewerButton, _('Toggle Text viewer'))
 
@@ -145,6 +163,8 @@ class Plugin:
         self._lockButton.config(state='disabled')
         self._discardButton.config(state='disabled')
         self._manuscriptButton.config(state='disabled')
+        self._goBackButton.config(state='disabled')
+        self._goForwardButton.config(state='disabled')
         self._propertiesButton.config(state='disabled')
         self._viewerButton.config(state='disabled')
 
@@ -155,6 +175,8 @@ class Plugin:
         self._lockButton.config(state='normal')
         self._discardButton.config(state='normal')
         self._manuscriptButton.config(state='normal')
+        self._goBackButton.config(state='normal')
+        self._goForwardButton.config(state='normal')
         self._propertiesButton.config(state='normal')
         self._viewerButton.config(state='normal')
 

@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.1.1\n"
-"POT-Creation-Date: 2023-07-11 21:23:35\n"
+"Project-Id-Version: 1.2.0\n"
+"POT-Creation-Date: 2023-08-03 14:12:19\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -21,6 +21,12 @@ msgid "Discard manuscript"
 msgstr ""
 
 msgid "Export Manuscript for editing"
+msgstr ""
+
+msgid "Go back in the browsing history"
+msgstr ""
+
+msgid "Go forward in the browsing history"
 msgstr ""
 
 msgid "Lock/unlock"
