@@ -43,6 +43,20 @@ message is displayed during setup. However, the plugin still works.
 
 ![Go forward](icons/24/next.png) Go forward in the browsing history. Same as **F12**.
 
+![View Book](icons/24/book.png) Go to the "Book" branch and expand it. Same as **View > View Book** or **Home**.
+
+![View Characters](icons/24/group.png) Go to the "Characters" branch and expand it. Same as **View > View Characters** or **F6**.
+
+![View Locations](icons/24/map.png) Go to the "Locations" branch and expand it. Same as **View > View Locations** or **F7**.
+
+![View Items](icons/24/key.png) Go to the "Items" branch and expand it. Same as **View > View Items** or **F8**.
+
+![View Research](icons/24/earth.png) Go to the "Research" branch and expand it. Same as **View > View Research** or **F9**.
+
+![View Planning](icons/24/process.png) Go to the "Planning" branch and expand it. Same as **View > View Planning** or **F10**.
+
+![View Project notes](icons/24/notes.png) Go to the "Project notes" branch and expand it. Same as **View > View Project notes** or **End**.
+
 ![Toggle Text viewer](icons/24/file.png) Toggle Text viewer. Same as **View > Toggle Text viewer** or **Ctrl-T**.
 
 ![Toggle Properties](icons/24/info.png) Toggle Properties. Same as **View > Toggle Properties** or **Ctrl-Alt-T**.
@@ -68,6 +82,20 @@ message is displayed during setup. However, the plugin still works.
 [Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
 
 [Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
+
+[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
+
+[Book icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/book)
+
+[Location icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/location)
+
+[Globe icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/globe)
+
+[Process icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/process)
+
+[App icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/app)
+
+[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)
 
 ---
 

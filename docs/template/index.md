@@ -8,7 +8,7 @@ The [novelyst](https://peter88213.github.io/novelyst/) Python program helps auth
 
 ## Requirements
 
-- [novelyst](https://peter88213.github.io/novelyst/) version 4.33+
+- [novelyst](https://peter88213.github.io/novelyst/) version 4.35+
 
 ### Note for Linux users
 
@@ -31,7 +31,7 @@ See the [instructions for use](usage)
 
 ---
 
-## Credits
+# Credits
 
 [Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
 
@@ -50,6 +50,20 @@ See the [instructions for use](usage)
 [Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
 
 [Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
+
+[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
+
+[Book icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/book)
+
+[Location icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/location)
+
+[Globe icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/globe)
+
+[Process icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/process)
+
+[App icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/app)
+
+[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)
 
 ---
 

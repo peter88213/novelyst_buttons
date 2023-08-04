@@ -9,7 +9,7 @@ For more information, see the [project homepage](https://peter88213.github.io/no
 
 You can go to the [novelyst "discussions" forum](https://github.com/peter88213/novelyst/discussions) and start a thread.
 
-## Credits
+# Credits
 
 [Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
 
@@ -28,6 +28,20 @@ You can go to the [novelyst "discussions" forum](https://github.com/peter88213/n
 [Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
 
 [Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
+
+[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
+
+[Book icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/book)
+
+[Location icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/location)
+
+[Globe icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/globe)
+
+[Process icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/process)
+
+[App icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/app)
+
+[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)
 
 ## License
 

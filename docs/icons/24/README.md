@@ -17,3 +17,17 @@
 [Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
 
 [Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
+
+[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
+
+[Book icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/book)
+
+[Location icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/location)
+
+[Globe icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/globe)
+
+[Process icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/process)
+
+[App icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/app)
+
+[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)

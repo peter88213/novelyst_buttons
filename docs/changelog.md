@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### v1.3.0
+
+- Add navigation buttons.
+
+Compatibility: novelyst v4.35 API
+
 ### v1.2.0
 
 - Add history browsing buttons.
