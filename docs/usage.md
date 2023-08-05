@@ -29,19 +29,11 @@ message is displayed during setup. However, the plugin still works.
 
 # Operation
 
-![Save](icons/24/diskette.png) Save the project. Same as **File > Save** or **Ctrl-S**.
-
-![Reload](icons/24/refresh.png) Reload the project, e.g. after editing. Same as **File > Reload** or **Ctrl-R**.
-
-![Lock/Unlock](icons/24/padlock.png) Toggle the lock status of the project.
-
-![Discard manuscript](icons/24/trash.png) Discard the current manuscript. Same as **File > Discard manuscript**
-
-![Export manuscript](icons/24/manuscript.png) Export the manuscript for editing.
-
 ![Go back](icons/24/previous.png) Go back in the browsing history. Same as **F11**.
 
 ![Go forward](icons/24/next.png) Go forward in the browsing history. Same as **F12**.
+
+---
 
 ![View Book](icons/24/book.png) Go to the "Book" branch and expand it. Same as **View > View Book** or **Home**.
 
@@ -57,6 +49,20 @@ message is displayed during setup. However, the plugin still works.
 
 ![View Project notes](icons/24/notes.png) Go to the "Project notes" branch and expand it. Same as **View > View Project notes** or **End**.
 
+---
+
+![Save](icons/24/diskette.png) Save the project. Same as **File > Save** or **Ctrl-S**.
+
+![Reload](icons/24/refresh.png) Reload the project, e.g. after editing. Same as **File > Reload** or **Ctrl-R**.
+
+![Lock/Unlock](icons/24/padlock.png) Toggle the lock status of the project.
+
+![Discard manuscript](icons/24/trash.png) Discard the current manuscript. Same as **File > Discard manuscript**
+
+![Export manuscript](icons/24/manuscript.png) Export the manuscript for editing.
+
+---
+
 ![Toggle Text viewer](icons/24/file.png) Toggle Text viewer. Same as **View > Toggle Text viewer** or **Ctrl-T**.
 
 ![Toggle Properties](icons/24/info.png) Toggle Properties. Same as **View > Toggle Properties** or **Ctrl-Alt-T**.
@@ -65,29 +71,17 @@ message is displayed during setup. However, the plugin still works.
 
 # Credits
 
-[Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
-
-[Save icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/save)
-
-[Refresh icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/refresh)
-
-[Files and folders icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/files-and-folders)
-
-[Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
-
-[Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
-
-[Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
-
 [Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
 
 [Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
 
-[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
-
 [Book icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/book)
 
+[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
+
 [Location icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/location)
+
+[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)
 
 [Globe icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/globe)
 
@@ -95,7 +89,20 @@ message is displayed during setup. However, the plugin still works.
 
 [App icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/app)
 
-[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)
+[Save icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/save)
+
+[Refresh icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/refresh)
+
+[Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
+
+[Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
+
+[Feather icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/feather)
+
+[Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
+
+[Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
+
 
 ---
 

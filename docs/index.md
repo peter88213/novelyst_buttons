@@ -16,9 +16,9 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 1.3.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.3.0.zip)
+[Download the latest release (version 1.3.1)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.3.1.zip)
 
-- Extract the "novelyst_buttons_v1.3.0" folder from the downloaded zipfile "novelyst_buttons_v1.3.0.zip".
+- Extract the "novelyst_buttons_v1.3.1" folder from the downloaded zipfile "novelyst_buttons_v1.3.1.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---
@@ -33,29 +33,17 @@ See the [instructions for use](usage)
 
 # Credits
 
-[Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
-
-[Save icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/save)
-
-[Refresh icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/refresh)
-
-[Files and folders icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/files-and-folders)
-
-[Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
-
-[Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
-
-[Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
-
 [Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
 
 [Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
 
-[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
-
 [Book icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/book)
 
+[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
+
 [Location icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/location)
+
+[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)
 
 [Globe icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/globe)
 
@@ -63,7 +51,19 @@ See the [instructions for use](usage)
 
 [App icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/app)
 
-[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)
+[Save icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/save)
+
+[Refresh icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/refresh)
+
+[Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
+
+[Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
+
+[Feather icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/feather)
+
+[Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
+
+[Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
 
 ---
 
