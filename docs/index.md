@@ -16,9 +16,9 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 1.4.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.4.0.zip)
+[Download the latest release (version 1.5.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.5.0.zip)
 
-- Extract the "novelyst_buttons_v1.4.0" folder from the downloaded zipfile "novelyst_buttons_v1.4.0.zip".
+- Extract the "novelyst_buttons_v1.5.0" folder from the downloaded zipfile "novelyst_buttons_v1.5.0.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---
@@ -33,37 +33,7 @@ See the [instructions for use](usage)
 
 ## Credits
 
-[Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
-
-[Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
-
-[Book icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/book)
-
-[People icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/people)
-
-[Location icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/location)
-
-[Smart key icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/smart-key)
-
-[Globe icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/globe)
-
-[Process icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/process)
-
-[App icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/app)
-
-[Save icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/save)
-
-[Refresh icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/refresh)
-
-[Lock icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/lock)
-
-[Cancel icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cancel)
-
-[Feather icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/feather)
-
-[Paper icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/paper)
-
-[Info icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/info)
+Icons from [Eva Icons](https://akveo.github.io/eva-icons/#/) are published under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 ---
 
