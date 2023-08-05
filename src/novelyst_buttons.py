@@ -69,7 +69,7 @@ class Plugin:
         self._buttonBar.pack(expand=False, before=self._ui.appWindow, fill='both')
 
         # "Go back" button.
-        goBackIcon = tk.PhotoImage(file=f'{iconPath}/previous.png')
+        goBackIcon = tk.PhotoImage(file=f'{iconPath}/nb_goBack.png')
         self._goBackButton = ttk.Button(self._buttonBar,
                                             image=goBackIcon,
                                             command=self._ui.tv.go_back)
@@ -77,7 +77,7 @@ class Plugin:
         self._goBackButton.image = goBackIcon
 
         # "Go forward" button.
-        goForwardIcon = tk.PhotoImage(file=f'{iconPath}/next.png')
+        goForwardIcon = tk.PhotoImage(file=f'{iconPath}/nb_goForward.png')
         self._goForwardButton = ttk.Button(self._buttonBar,
                                             image=goForwardIcon,
                                             command=self._ui.tv.go_forward)
@@ -88,7 +88,7 @@ class Plugin:
         tk.Frame(self._buttonBar, bg='light gray', width=1).pack(side='left', fill='y', padx=4)
 
         # "View Book" button.
-        viewBookIcon = tk.PhotoImage(file=f'{iconPath}/book.png')
+        viewBookIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewBook.png')
         self._viewBookButton = ttk.Button(self._buttonBar,
                                             image=viewBookIcon,
                                             command=lambda: self._ui.tv.show_branch(self._ui.tv.NV_ROOT))
@@ -96,7 +96,7 @@ class Plugin:
         self._viewBookButton.image = viewBookIcon
 
         # "View Characters" button.
-        viewCharactersIcon = tk.PhotoImage(file=f'{iconPath}/group.png')
+        viewCharactersIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewCharacters.png')
         self._viewCharactersButton = ttk.Button(self._buttonBar,
                                             image=viewCharactersIcon,
                                             command=lambda: self._ui.tv.show_branch(self._ui.tv.CR_ROOT))
@@ -104,7 +104,7 @@ class Plugin:
         self._viewCharactersButton.image = viewCharactersIcon
 
         # "View Locations" button.
-        viewLocationsIcon = tk.PhotoImage(file=f'{iconPath}/map.png')
+        viewLocationsIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewLocations.png')
         self._viewLocationsButton = ttk.Button(self._buttonBar,
                                             image=viewLocationsIcon,
                                             command=lambda: self._ui.tv.show_branch(self._ui.tv.LC_ROOT))
@@ -112,7 +112,7 @@ class Plugin:
         self._viewLocationsButton.image = viewLocationsIcon
 
         # "View Items" button.
-        viewItemsIcon = tk.PhotoImage(file=f'{iconPath}/key.png')
+        viewItemsIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewItems.png')
         self._viewItemsButton = ttk.Button(self._buttonBar,
                                             image=viewItemsIcon,
                                             command=lambda: self._ui.tv.show_branch(self._ui.tv.IT_ROOT))
@@ -120,7 +120,7 @@ class Plugin:
         self._viewItemsButton.image = viewItemsIcon
 
         # "View Research" button.
-        viewResearchIcon = tk.PhotoImage(file=f'{iconPath}/earth.png')
+        viewResearchIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewResearch.png')
         self._viewResearchButton = ttk.Button(self._buttonBar,
                                             image=viewResearchIcon,
                                             command=lambda: self._ui.tv.show_branch(self._ui.tv.RS_ROOT))
@@ -128,7 +128,7 @@ class Plugin:
         self._viewResearchButton.image = viewResearchIcon
 
         # "View Planning" button.
-        viewPlanningIcon = tk.PhotoImage(file=f'{iconPath}/process.png')
+        viewPlanningIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewPlanning.png')
         self._viewPlanningButton = ttk.Button(self._buttonBar,
                                             image=viewPlanningIcon,
                                             command=lambda: self._ui.tv.show_branch(self._ui.tv.PL_ROOT))
@@ -136,7 +136,7 @@ class Plugin:
         self._viewPlanningButton.image = viewPlanningIcon
 
         # "View Projectnotes" button.
-        viewProjectnotesIcon = tk.PhotoImage(file=f'{iconPath}/notes.png')
+        viewProjectnotesIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewProjectnotes.png')
         self._viewProjectnotesButton = ttk.Button(self._buttonBar,
                                             image=viewProjectnotesIcon,
                                             command=lambda: self._ui.tv.show_branch(self._ui.tv.PN_ROOT))
@@ -147,7 +147,7 @@ class Plugin:
         tk.Frame(self._buttonBar, bg='light gray', width=1).pack(side='left', fill='y', padx=4)
 
         # "Save" button.
-        saveIcon = tk.PhotoImage(file=f'{iconPath}/diskette.png')
+        saveIcon = tk.PhotoImage(file=f'{iconPath}/nb_save.png')
         self._saveButton = ttk.Button(self._buttonBar,
                                       image=saveIcon,
                                       command=self._ui.save_project)
@@ -155,7 +155,7 @@ class Plugin:
         self._saveButton.image = saveIcon
 
         # "Reload" button.
-        reloadIcon = tk.PhotoImage(file=f'{iconPath}/refresh.png')
+        reloadIcon = tk.PhotoImage(file=f'{iconPath}/nb_reload.png')
         self._reloadButton = ttk.Button(self._buttonBar,
                                         image=reloadIcon,
                                         command=self._ui.reload_project)
@@ -163,7 +163,7 @@ class Plugin:
         self._reloadButton.image = reloadIcon
 
         # "Lock/Unlock" button.
-        lockIcon = tk.PhotoImage(file=f'{iconPath}/padlock.png')
+        lockIcon = tk.PhotoImage(file=f'{iconPath}/nb_lock.png')
         self._lockButton = ttk.Button(self._buttonBar,
                                       image=lockIcon,
                                       command=self._ui.toggle_lock)
@@ -171,7 +171,7 @@ class Plugin:
         self._lockButton.image = lockIcon
 
         # "Discard manuscript" button.
-        discardIcon = tk.PhotoImage(file=f'{iconPath}/trash.png')
+        discardIcon = tk.PhotoImage(file=f'{iconPath}/nb_discard.png')
         self._discardButton = ttk.Button(self._buttonBar,
                                             image=discardIcon,
                                             command=self._ui.discard_manuscript)
@@ -179,15 +179,17 @@ class Plugin:
         self._discardButton.image = discardIcon
 
         # "Manuscript" button.
-        manuscriptIcon = tk.PhotoImage(file=f'{iconPath}/manuscript.png')
+        manuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_manuscript.png')
         self._manuscriptButton = ttk.Button(self._buttonBar,
                                             image=manuscriptIcon,
                                             command=lambda:self._ui.export_document('_manuscript'))
         self._manuscriptButton.pack(side='left')
         self._manuscriptButton.image = manuscriptIcon
 
+        # Reverse order (side='right').
+
         # "Toggle properties" button.
-        propertiesIcon = tk.PhotoImage(file=f'{iconPath}/info.png')
+        propertiesIcon = tk.PhotoImage(file=f'{iconPath}/nb_properties.png')
         self._propertiesButton = ttk.Button(self._buttonBar,
                                             image=propertiesIcon,
                                             command=self._ui.toggle_properties)
@@ -195,7 +197,7 @@ class Plugin:
         self._propertiesButton.image = propertiesIcon
 
         # "Toggle content viewer" button.
-        viewerIcon = tk.PhotoImage(file=f'{iconPath}/file.png')
+        viewerIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewer.png')
         self._viewerButton = ttk.Button(self._buttonBar,
                                         image=viewerIcon,
                                         command=self._ui.toggle_viewer)

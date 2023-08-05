@@ -80,8 +80,8 @@ if __name__ == '__main__':
     header.pack(padx=5, pady=5)
 
     # Icon size selector.
-    smallIcon = PhotoImage(file='icons/16/diskette.png')
-    bigIcon = PhotoImage(file='icons/24/diskette.png')
+    smallIcon = PhotoImage(file='icons/16/nb_save.png')
+    bigIcon = PhotoImage(file='icons/24/nb_save.png')
     iconSize = IntVar(root, value=16)
     Label(root, image=smallIcon).pack()
     Radiobutton(root, text='Small icons', variable=iconSize, value=16).pack()

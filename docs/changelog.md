@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### v1.4.0
+
+- Rename icons.
+
+Compatibility: novelyst v4.35 API
+
 ### v1.3.1
 
 - Update icons.

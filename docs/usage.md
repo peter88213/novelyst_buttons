@@ -31,43 +31,43 @@ message is displayed during setup. However, the plugin still works.
 
 ---
 
-![Go back](icons/24/previous.png) Go back in the browsing history. Same as **F11**.
+![Go back](icons/24/nb_goBack.png) Go back in the browsing history. Same as **F11**.
 
-![Go forward](icons/24/next.png) Go forward in the browsing history. Same as **F12**.
-
----
-
-![View Book](icons/24/book.png) Go to the "Book" branch and expand it. Same as **View > View Book** or **Home**.
-
-![View Characters](icons/24/group.png) Go to the "Characters" branch and expand it. Same as **View > View Characters** or **F6**.
-
-![View Locations](icons/24/map.png) Go to the "Locations" branch and expand it. Same as **View > View Locations** or **F7**.
-
-![View Items](icons/24/key.png) Go to the "Items" branch and expand it. Same as **View > View Items** or **F8**.
-
-![View Research](icons/24/earth.png) Go to the "Research" branch and expand it. Same as **View > View Research** or **F9**.
-
-![View Planning](icons/24/process.png) Go to the "Planning" branch and expand it. Same as **View > View Planning** or **F10**.
-
-![View Project notes](icons/24/notes.png) Go to the "Project notes" branch and expand it. Same as **View > View Project notes** or **End**.
+![Go forward](icons/24/nb_goForward.png) Go forward in the browsing history. Same as **F12**.
 
 ---
 
-![Save](icons/24/diskette.png) Save the project. Same as **File > Save** or **Ctrl-S**.
+![View Book](icons/24/nb_viewBook.png) Go to the "Book" branch and expand it. Same as **View > View Book** or **Home**.
 
-![Reload](icons/24/refresh.png) Reload the project, e.g. after editing. Same as **File > Reload** or **Ctrl-R**.
+![View Characters](icons/24/nb_viewCharacters.png) Go to the "Characters" branch and expand it. Same as **View > View Characters** or **F6**.
 
-![Lock/Unlock](icons/24/padlock.png) Toggle the lock status of the project.
+![View Locations](icons/24/nb_viewLocations.png) Go to the "Locations" branch and expand it. Same as **View > View Locations** or **F7**.
 
-![Discard manuscript](icons/24/trash.png) Discard the current manuscript. Same as **File > Discard manuscript**
+![View Items](icons/24/nb_viewItems.png) Go to the "Items" branch and expand it. Same as **View > View Items** or **F8**.
 
-![Export manuscript](icons/24/manuscript.png) Export the manuscript for editing.
+![View Research](icons/24/nb_viewResearch.png) Go to the "Research" branch and expand it. Same as **View > View Research** or **F9**.
+
+![View Planning](icons/24/nb_viewPlanning.png) Go to the "Planning" branch and expand it. Same as **View > View Planning** or **F10**.
+
+![View Project notes](icons/24/nb_viewProjectnotes.png) Go to the "Project notes" branch and expand it. Same as **View > View Project notes** or **End**.
 
 ---
 
-![Toggle Text viewer](icons/24/file.png) Toggle Text viewer. Same as **View > Toggle Text viewer** or **Ctrl-T**.
+![Save](icons/24/nb_save.png) Save the project. Same as **File > Save** or **Ctrl-S**.
 
-![Toggle Properties](icons/24/info.png) Toggle Properties. Same as **View > Toggle Properties** or **Ctrl-Alt-T**.
+![Reload](icons/24/nb_reload.png) Reload the project, e.g. after editing. Same as **File > Reload** or **Ctrl-R**.
+
+![Lock/Unlock](icons/24/nb_lock.png) Toggle the lock status of the project.
+
+![Discard manuscript](icons/24/nb_discard.png) Discard the current manuscript. Same as **File > Discard manuscript**
+
+![Export manuscript](icons/24/nb_manuscript.png) Export the manuscript for editing.
+
+---
+
+![Toggle Text viewer](icons/24/nb_viewer.png) Toggle Text viewer. Same as **View > Toggle Text viewer** or **Ctrl-T**.
+
+![Toggle Properties](icons/24/nb_properties.png) Toggle Properties. Same as **View > Toggle Properties** or **Ctrl-Alt-T**.
 
 ---
 

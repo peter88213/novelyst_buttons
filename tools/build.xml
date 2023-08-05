@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="novelyst_buttons" basedir=".">
-	<property name="version" value="1.3.1" />
+	<property name="version" value="1.4.0" />
 	<property name="plugin" value="novelyst_buttons" />
 	
 	<property name="source-path" location="../src" />
@@ -46,7 +46,7 @@
 		</copy>
 		
 		<copy todir="${build-path}/${release}/icons"> 
-			<fileset dir="../icons" />
+			<fileset dir="../docs/icons" />
 		</copy>
 		
 		<zip destfile="${dist-path}/${release}.zip" basedir="${build-path}" />
