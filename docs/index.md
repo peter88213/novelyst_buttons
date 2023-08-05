@@ -31,7 +31,7 @@ See the [instructions for use](usage)
 
 ---
 
-# Credits
+## Credits
 
 [Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
 

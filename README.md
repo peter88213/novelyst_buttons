@@ -9,7 +9,7 @@ For more information, see the [project homepage](https://peter88213.github.io/no
 
 You can go to the [novelyst "discussions" forum](https://github.com/peter88213/novelyst/discussions) and start a thread.
 
-# Credits
+## Credits
 
 [Back icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/back)
 

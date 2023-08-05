@@ -29,6 +29,8 @@ message is displayed during setup. However, the plugin still works.
 
 # Operation
 
+---
+
 ![Go back](icons/24/previous.png) Go back in the browsing history. Same as **F11**.
 
 ![Go forward](icons/24/next.png) Go forward in the browsing history. Same as **F12**.
