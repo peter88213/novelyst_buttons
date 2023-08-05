@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### v1.5.1
+
+- Change the "Locations" icon to make it more distinguishable.
+
+Compatibility: novelyst v4.35 API
+
 ### v1.5.0
 
 - Change the icon set.
