@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### v1.5.3
+
+- Rework icons.
+
+Compatibility: novelyst v4.35 API
+
 ### v1.5.2
 
 - Colorize icons to make them more distinguishable.
