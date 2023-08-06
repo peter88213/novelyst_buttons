@@ -9,6 +9,7 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
 import sys
+import glob
 from shutil import copytree
 from shutil import copyfile
 from pathlib import Path
@@ -58,12 +59,17 @@ def install(iconSize=16, disableHovertips=False):
             output('\nThe idlelib module is missing.\nTo see the tooltips, please install the idle3 package for your python3 version.\n')
 
         # Install the localization files.
+        output(f'Copying locale ...')
         copytree('locale', f'{novelystDir}/locale', dirs_exist_ok=True)
-        output(f'Copying "locale"')
 
         # Install the icon files.
+        output(f'Copying icons ...')
         copytree(f'icons/{iconSize}', f'{pluginDir}/icons', dirs_exist_ok=True)
-        output(f'Copying "icons"')
+        for f in os.listdir(f'{pluginDir}/icons'):
+            print(f)
+            if not f.endswith('.png'):
+                output(f'Deleting {pluginDir}/icons/{f} ...')
+                os.remove(f'{pluginDir}/icons/{f}')
     else:
         output(f'ERROR: Cannot find a novelyst installation at "{novelystDir}"')
 
