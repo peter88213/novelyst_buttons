@@ -66,7 +66,6 @@ def install(iconSize=16, disableHovertips=False):
         output(f'Copying icons ...')
         copytree(f'icons/{iconSize}', f'{pluginDir}/icons', dirs_exist_ok=True)
         for f in os.listdir(f'{pluginDir}/icons'):
-            print(f)
             if not f.endswith('.png'):
                 output(f'Deleting {pluginDir}/icons/{f} ...')
                 os.remove(f'{pluginDir}/icons/{f}')
