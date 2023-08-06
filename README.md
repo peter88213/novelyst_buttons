@@ -11,7 +11,7 @@ You can go to the [novelyst "discussions" forum](https://github.com/peter88213/n
 
 ## Credits
 
-Icons from [Eva Icons](https://akveo.github.io/eva-icons/#/) are published under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+The Icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), published under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 ## License
 

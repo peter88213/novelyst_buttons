@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### v1.6.0
+
+- Rework icons.
+
+Compatibility: novelyst v4.35 API
+
 ### v1.5.4
 
 - Make icon background transparent.
