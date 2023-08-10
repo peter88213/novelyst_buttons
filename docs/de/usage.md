@@ -1,16 +1,16 @@
-[Project homepage](https://peter88213.github.io/novelyst_buttons)
+[Projekt-Homepage](https://peter88213.github.io/novelyst_buttons) > Gebrauchsanleitung
 
 --- 
 
-A [novelyst](https://peter88213.github.io/novelyst/) plugin providing buttons for frequently used actions. 
+Ein [novelyst](https://peter88213.github.io/novelyst/)-Plugin providing buttons for frequently used actions. 
 
 ---
 
 # Installation
 
-If [novelyst](https://peter88213.github.io/novelyst/) is installed, the setup script auto-installs the *novelyst_buttons* plugin in the *novelyst* plugin directory.
+Wenn [novelyst](https://peter88213.github.io/novelyst/) installiert ist, installiert das Setup-Skript automatisch das*novelyst_buttons*-Plugin im *novelyst* Plugin-Verzeichnis.
 
-## Options
+## Optionen
 
 ### Select icon size
 
@@ -27,58 +27,56 @@ message is displayed during setup. However, the plugin still works.
 
 ---
 
-# Operation
+# Benutzung
 
 ---
 
-![Go back](../icons/24/nb_goBack.png) Zurück im Verlauf. Same as **F11**.
+![Go back](../icons/24/nb_goBack.png) Zurück im Verlauf. Dasselbe wie **F11**.
 
-![Go forward](../icons/24/nb_goForward.png) Vor im Verlauf. Same as **F12**.
-
----
-
-![Buch anzeigen](../icons/24/nb_viewBook.png) Go to the "Buch" branch and expand it. Same as **Ansicht > Buch anzeigen** or **Pos1**.
-
-![Figuren anzeigen](../icons/24/nb_viewCharcters.png) Go to the "Figuren" branch and expand it. Same as **Ansicht > Figuren anzeigen** or **F6**.
-
-![Schauplätze anzeigen](../icons/24/nb_viewLocations.png) Go to the "Schauplätze" branch and expand it. Same as **Ansicht > Schauplätze anzeigen** or **F7**.
-
-![Gegenstände anzeigen](../icons/24/nb_viewItems.png) Go to the "Gegenstände" branch and expand it. Same as **Ansicht > Gegenstände anzeigen** or **F8**.
-
-![Recherche anzeigen](../icons/24/nb_viewResearch.png) Go to the "Recherche" branch and expand it. Same as **Ansicht > Recherche anzeigen** or **F9**.
-
-![Planung anzeigen](../icons/24/nb_viewPlanning.png) Go to the "Planung" branch and expand it. Same as **Ansicht > Planung anzeigen** or **F10**.
-
-![Projektnotizen anzeigen](../icons/24/nb_viewProjectnotes.png) Go to the "Projektnotizen" branch and expand it. Same as **Ansicht > Projektnotizen anzeigen** or **Ende**.
+![Go forward](../icons/24/nb_goForward.png) Vor im Verlauf. Dasselbe wie **F12**.
 
 ---
 
-![Speichern](../icons/24/nb_save.png) Speichern the project. Same as **Datei > Speichern** or **Ctrl-S**.
+![Buch anzeigen](../icons/24/nb_viewBook.png) Go to the "Buch" branch and expand it. Dasselbe wie **Ansicht > Buch anzeigen** or **Pos1**.
 
-![Neu laden](../icons/24/nb_reload.png) Neu laden the project, e.g. after editing. Same as **Datei > Neu laden** or **Ctrl-R**.
+![Figuren anzeigen](../icons/24/nb_viewCharcters.png) Go to the "Figuren" branch and expand it. Dasselbe wie **Ansicht > Figuren anzeigen** or **F6**.
+
+![Schauplätze anzeigen](../icons/24/nb_viewLocations.png) Go to the "Schauplätze" branch and expand it. Dasselbe wie **Ansicht > Schauplätze anzeigen** or **F7**.
+
+![Gegenstände anzeigen](../icons/24/nb_viewItems.png) Go to the "Gegenstände" branch and expand it. Dasselbe wie **Ansicht > Gegenstände anzeigen** or **F8**.
+
+![Recherche anzeigen](../icons/24/nb_viewResearch.png) Go to the "Recherche" branch and expand it. Dasselbe wie **Ansicht > Recherche anzeigen** or **F9**.
+
+![Planung anzeigen](../icons/24/nb_viewPlanning.png) Go to the "Planung" branch and expand it. Dasselbe wie **Ansicht > Planung anzeigen** or **F10**.
+
+![Projektnotizen anzeigen](../icons/24/nb_viewProjectnotes.png) Go to the "Projektnotizen" branch and expand it. Dasselbe wie **Ansicht > Projektnotizen anzeigen** or **Ende**.
+
+---
+
+![Speichern](../icons/24/nb_save.png) Speichern the project. Dasselbe wie **Datei > Speichern** or **Ctrl-S**.
+
+![Neu laden](../icons/24/nb_reload.png) Neu laden the project, e.g. after editing. Dasselbe wie **Datei > Neu laden** or **Ctrl-R**.
 
 ![Sperren/Entsperren](../icons/24/nb_lock.png) Toggle the lock status of the project.
 
-![Manuskript verwerfen](../icons/24/nb_discard.png) Discard the current Manuskript. Same as **Datei > Manuskript verwerfen**
+![Manuskript verwerfen](../icons/24/nb_discard.png) Discard the current Manuskript. Dasselbe wie **Datei > Manuskript verwerfen**
 
 ![Manuskript exportieren](../icons/24/nb_manuscript.png) Exportieren the Manuskript for editing.
 
 ---
 
-![Textbetrachter anzeigen/verbergen](../icons/24/nb_viewer.png) Textbetrachter anzeigen/verbergen. Same as **Ansicht > Textbetrachter anzeigen/verbergen** or **Ctrl-T**.
+![Textbetrachter anzeigen/verbergen](../icons/24/nb_viewer.png) Textbetrachter anzeigen/verbergen. Dasselbe wie **Ansicht > Textbetrachter anzeigen/verbergen** or **Ctrl-T**.
 
-![Eigenschaften anzeigen/verbergen](../icons/24/nb_properties.png) Eigenschaften anzeigen/verbergen. Same as **Ansicht > Eigenschaften anzeigen/verbergen** or **Ctrl-Alt-T**.
+![Eigenschaften anzeigen/verbergen](../icons/24/nb_properties.png) Eigenschaften anzeigen/verbergen. Dasselbe wie **Ansicht > Eigenschaften anzeigen/verbergen** or **Ctrl-Alt-T**.
 
 ---
 
-# Credits
+# Danksagung
 
 The Icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), published under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 ---
 
-# License
+# Lizenz
 
-This is Open Source software, and the *novelyst_buttons* plugin is licensed under GPLv3. See the
-[GNU General Public License website](https://www.gnu.org/licenses/gpl-3.0.en.html) for more
-details, or consult the [LICENSE](https://github.com/peter88213/novelyst_buttons/blob/main/LICENSE) file.
+Dies ist quelloffene Software, und das *novelyst_buttons*-Plugin steht unter der GPLv3-Lizenz. Für mehr Details besuchen Sie die[Website der GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.de.html), oder schauen Sie sich die [LICENSE](https://github.com/peter88213/novelyst_buttons/blob/main/LICENSE)-Datei an.
