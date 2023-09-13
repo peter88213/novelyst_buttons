@@ -37,19 +37,19 @@ message is displayed during setup. However, the plugin still works.
 
 ---
 
-![Buch anzeigen](../icons/24/nb_viewBook.png) Go to the "Buch" branch and expand it. Dasselbe wie **Ansicht > Buch anzeigen** or **Pos1**.
+![Buch anzeigen](../icons/24/nb_viewBook.png) Go to the "Buch" branch and expand it. Dasselbe wie **Ansicht > Buch anzeigen** or **F6**.
 
-![Figuren anzeigen](../icons/24/nb_viewCharcters.png) Go to the "Figuren" branch and expand it. Dasselbe wie **Ansicht > Figuren anzeigen** or **F6**.
+![Figuren anzeigen](../icons/24/nb_viewCharcters.png) Go to the "Figuren" branch and expand it. Dasselbe wie **Ansicht > Figuren anzeigen** or **F7**.
 
-![Schauplätze anzeigen](../icons/24/nb_viewLocations.png) Go to the "Schauplätze" branch and expand it. Dasselbe wie **Ansicht > Schauplätze anzeigen** or **F7**.
+![Schauplätze anzeigen](../icons/24/nb_viewLocations.png) Go to the "Schauplätze" branch and expand it. Dasselbe wie **Ansicht > Schauplätze anzeigen** or **F8**.
 
-![Gegenstände anzeigen](../icons/24/nb_viewItems.png) Go to the "Gegenstände" branch and expand it. Dasselbe wie **Ansicht > Gegenstände anzeigen** or **F8**.
+![Gegenstände anzeigen](../icons/24/nb_viewItems.png) Go to the "Gegenstände" branch and expand it. Dasselbe wie **Ansicht > Gegenstände anzeigen** or **F9**.
 
-![Recherche anzeigen](../icons/24/nb_viewResearch.png) Go to the "Recherche" branch and expand it. Dasselbe wie **Ansicht > Recherche anzeigen** or **F9**.
+![Recherche anzeigen](../icons/24/nb_viewResearch.png) Go to the "Recherche" branch and expand it. Dasselbe wie **Ansicht > Recherche anzeigen** or **F10**.
 
-![Planung anzeigen](../icons/24/nb_viewPlanning.png) Go to the "Planung" branch and expand it. Dasselbe wie **Ansicht > Planung anzeigen** or **F10**.
+![Planung anzeigen](../icons/24/nb_viewPlanning.png) Go to the "Planung" branch and expand it. Dasselbe wie **Ansicht > Planung anzeigen** or **F11**.
 
-![Projektnotizen anzeigen](../icons/24/nb_viewProjectnotes.png) Go to the "Projektnotizen" branch and expand it. Dasselbe wie **Ansicht > Projektnotizen anzeigen** or **Ende**.
+![Projektnotizen anzeigen](../icons/24/nb_viewProjectnotes.png) Go to the "Projektnotizen" branch and expand it. Dasselbe wie **Ansicht > Projektnotizen anzeigen** or **12**.
 
 ---
 

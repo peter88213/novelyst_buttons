@@ -37,19 +37,19 @@ message is displayed during setup. However, the plugin still works.
 
 ---
 
-![Show Book](icons/24/nb_viewBook.png) Go to the "Book" branch and expand it. Same as **View > Show Book** or **Home**.
+![Show Book](icons/24/nb_viewBook.png) Go to the "Book" branch and expand it. Same as **View > Show Book** or **F6**.
 
-![Show Characters](icons/24/nb_viewCharacters.png) Go to the "Characters" branch and expand it. Same as **View > Show Characters** or **F6**.
+![Show Characters](icons/24/nb_viewCharacters.png) Go to the "Characters" branch and expand it. Same as **View > Show Characters** or **F7**.
 
-![Show Locations](icons/24/nb_viewLocations.png) Go to the "Locations" branch and expand it. Same as **View > Show Locations** or **F7**.
+![Show Locations](icons/24/nb_viewLocations.png) Go to the "Locations" branch and expand it. Same as **View > Show Locations** or **F8**.
 
-![Show Items](icons/24/nb_viewItems.png) Go to the "Items" branch and expand it. Same as **View > Show Items** or **F8**.
+![Show Items](icons/24/nb_viewItems.png) Go to the "Items" branch and expand it. Same as **View > Show Items** or **F9**.
 
-![Show Research](icons/24/nb_viewResearch.png) Go to the "Research" branch and expand it. Same as **View > Show Research** or **F9**.
+![Show Research](icons/24/nb_viewResearch.png) Go to the "Research" branch and expand it. Same as **View > Show Research** or **F10**.
 
-![Show Planning](icons/24/nb_viewPlanning.png) Go to the "Planning" branch and expand it. Same as **View > Show Planning** or **F10**.
+![Show Planning](icons/24/nb_viewPlanning.png) Go to the "Planning" branch and expand it. Same as **View > Show Planning** or **F11**.
 
-![Show Project notes](icons/24/nb_viewProjectnotes.png) Go to the "Project notes" branch and expand it. Same as **View > Show Project notes** or **End**.
+![Show Project notes](icons/24/nb_viewProjectnotes.png) Go to the "Project notes" branch and expand it. Same as **View > Show Project notes** or **F12**.
 
 ---
 
