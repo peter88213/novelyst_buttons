@@ -35,7 +35,7 @@ def output(text):
 def install(iconSize=16, disableHovertips=False):
     # Install the plugin.
     homePath = str(Path.home()).replace('\\', '/')
-    novelystDir = f'{homePath}/.novxlib/novelyst'
+    novelystDir = f'{homePath}/.novelyst'
     if os.path.isdir(novelystDir):
         if os.path.isfile(f'./{PLUGIN}'):
             pluginDir = f'{novelystDir}/plugin'

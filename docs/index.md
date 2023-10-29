@@ -16,9 +16,9 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 1.6.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v1.6.0.zip)
+[Download the latest release (version 2.0.0)](https://github.com/peter88213/novelyst_buttons/raw/main/dist/novelyst_buttons_v2.0.0.zip)
 
-- Extract the "novelyst_buttons_v1.6.0" folder from the downloaded zipfile "novelyst_buttons_v1.6.0.zip".
+- Extract the "novelyst_buttons_v2.0.0" folder from the downloaded zipfile "novelyst_buttons_v2.0.0.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---
