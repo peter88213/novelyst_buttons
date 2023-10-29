@@ -17,6 +17,21 @@ import webbrowser
 
 APPLICATION = 'Button bar plugin'
 
+ROOT_PREFIX = 'rt'
+CHAPTER_PREFIX = 'ch'
+ARC_PREFIX = 'ac'
+SCENE_PREFIX = 'sc'
+ARC_POINT_PREFIX = 'ap'
+CHARACTER_PREFIX = 'cr'
+LOCATION_PREFIX = 'lc'
+ITEM_PREFIX = 'it'
+PRJ_NOTE_PREFIX = 'pn'
+CH_ROOT = f'{ROOT_PREFIX}{CHAPTER_PREFIX}'
+AC_ROOT = f'{ROOT_PREFIX}{ARC_PREFIX}'
+CR_ROOT = f'{ROOT_PREFIX}{CHARACTER_PREFIX}'
+LC_ROOT = f'{ROOT_PREFIX}{LOCATION_PREFIX}'
+IT_ROOT = f'{ROOT_PREFIX}{ITEM_PREFIX}'
+
 # Initialize localization.
 LOCALE_PATH = f'{os.path.dirname(sys.argv[0])}/locale/'
 try:
@@ -45,7 +60,7 @@ class Plugin:
         on_quit() -- Actions to be performed when novelyst is closed.               
     """
     VERSION = '@release'
-    NOVELYST_API = '4.35'
+    NOVELYST_API = '5.0'
     DESCRIPTION = 'A button bar'
     URL = 'https://peter88213.github.io/novelyst_buttons'
     _HELP_URL = 'https://peter88213.github.io/novelyst_buttons/usage'
@@ -91,7 +106,7 @@ class Plugin:
         viewBookIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewBook.png')
         self._viewBookButton = ttk.Button(self._buttonBar,
                                             image=viewBookIcon,
-                                            command=lambda: self._ui.tv.show_branch(self._ui.tv.NV_ROOT))
+                                            command=lambda: self._ui.tv.show_branch(CH_ROOT))
         self._viewBookButton.pack(side='left')
         self._viewBookButton.image = viewBookIcon
 
@@ -99,7 +114,7 @@ class Plugin:
         viewCharactersIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewCharacters.png')
         self._viewCharactersButton = ttk.Button(self._buttonBar,
                                             image=viewCharactersIcon,
-                                            command=lambda: self._ui.tv.show_branch(self._ui.tv.CR_ROOT))
+                                            command=lambda: self._ui.tv.show_branch(CR_ROOT))
         self._viewCharactersButton.pack(side='left')
         self._viewCharactersButton.image = viewCharactersIcon
 
@@ -107,7 +122,7 @@ class Plugin:
         viewLocationsIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewLocations.png')
         self._viewLocationsButton = ttk.Button(self._buttonBar,
                                             image=viewLocationsIcon,
-                                            command=lambda: self._ui.tv.show_branch(self._ui.tv.LC_ROOT))
+                                            command=lambda: self._ui.tv.show_branch(LC_ROOT))
         self._viewLocationsButton.pack(side='left')
         self._viewLocationsButton.image = viewLocationsIcon
 
@@ -115,33 +130,17 @@ class Plugin:
         viewItemsIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewItems.png')
         self._viewItemsButton = ttk.Button(self._buttonBar,
                                             image=viewItemsIcon,
-                                            command=lambda: self._ui.tv.show_branch(self._ui.tv.IT_ROOT))
+                                            command=lambda: self._ui.tv.show_branch(IT_ROOT))
         self._viewItemsButton.pack(side='left')
         self._viewItemsButton.image = viewItemsIcon
 
-        # "View Research" button.
-        viewResearchIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewResearch.png')
-        self._viewResearchButton = ttk.Button(self._buttonBar,
-                                            image=viewResearchIcon,
-                                            command=lambda: self._ui.tv.show_branch(self._ui.tv.RS_ROOT))
-        self._viewResearchButton.pack(side='left')
-        self._viewResearchButton.image = viewResearchIcon
-
-        # "View Planning" button.
-        viewPlanningIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewPlanning.png')
-        self._viewPlanningButton = ttk.Button(self._buttonBar,
-                                            image=viewPlanningIcon,
-                                            command=lambda: self._ui.tv.show_branch(self._ui.tv.PL_ROOT))
-        self._viewPlanningButton.pack(side='left')
-        self._viewPlanningButton.image = viewPlanningIcon
-
-        # "View Projectnotes" button.
-        viewProjectnotesIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewProjectnotes.png')
-        self._viewProjectnotesButton = ttk.Button(self._buttonBar,
-                                            image=viewProjectnotesIcon,
-                                            command=lambda: self._ui.tv.show_branch(self._ui.tv.PN_ROOT))
-        self._viewProjectnotesButton.pack(side='left')
-        self._viewProjectnotesButton.image = viewProjectnotesIcon
+        # "View Arcs" button.
+        viewArcsIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewArcs.png')
+        self._viewArcsButton = ttk.Button(self._buttonBar,
+                                            image=viewArcsIcon,
+                                            command=lambda: self._ui.tv.show_branch(AC_ROOT))
+        self._viewArcsButton.pack(side='left')
+        self._viewArcsButton.image = viewArcsIcon
 
         # Separator.
         tk.Frame(self._buttonBar, bg='light gray', width=1).pack(side='left', fill='y', padx=4)
@@ -154,14 +153,6 @@ class Plugin:
         self._saveButton.pack(side='left')
         self._saveButton.image = saveIcon
 
-        # "Reload" button.
-        reloadIcon = tk.PhotoImage(file=f'{iconPath}/nb_reload.png')
-        self._reloadButton = ttk.Button(self._buttonBar,
-                                        image=reloadIcon,
-                                        command=self._ui.reload_project)
-        self._reloadButton.pack(side='left')
-        self._reloadButton.image = reloadIcon
-
         # "Lock/Unlock" button.
         lockIcon = tk.PhotoImage(file=f'{iconPath}/nb_lock.png')
         self._lockButton = ttk.Button(self._buttonBar,
@@ -170,13 +161,13 @@ class Plugin:
         self._lockButton.pack(side='left')
         self._lockButton.image = lockIcon
 
-        # "Discard manuscript" button.
-        discardIcon = tk.PhotoImage(file=f'{iconPath}/nb_discard.png')
-        self._discardButton = ttk.Button(self._buttonBar,
-                                            image=discardIcon,
-                                            command=self._ui.discard_manuscript)
-        self._discardButton.pack(side='left')
-        self._discardButton.image = discardIcon
+        # "Update from manuscript" button.
+        updateFromManuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_updateFromManuscript.png')
+        self._updateButton = ttk.Button(self._buttonBar,
+                                            image=updateFromManuscriptIcon,
+                                            command=lambda: self._ui.update_from_odt(suffix='_manuscript'))
+        self._updateButton.pack(side='left')
+        self._updateButton.image = updateFromManuscriptIcon
 
         # "Manuscript" button.
         manuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_manuscript.png')
@@ -192,7 +183,7 @@ class Plugin:
         propertiesIcon = tk.PhotoImage(file=f'{iconPath}/nb_properties.png')
         self._propertiesButton = ttk.Button(self._buttonBar,
                                             image=propertiesIcon,
-                                            command=self._ui.toggle_properties)
+                                            command=self._ui.toggle_propertiesView)
         self._propertiesButton.pack(side='right')
         self._propertiesButton.image = propertiesIcon
 
@@ -200,7 +191,7 @@ class Plugin:
         viewerIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewer.png')
         self._viewerButton = ttk.Button(self._buttonBar,
                                         image=viewerIcon,
-                                        command=self._ui.toggle_viewer)
+                                        command=self._ui.toggle_contentsView)
         self._viewerButton.pack(side='right')
         self._viewerButton.image = viewerIcon
 
@@ -211,17 +202,14 @@ class Plugin:
                 pass
             else:
                 Hovertip(self._saveButton, _('Save'))
-                Hovertip(self._reloadButton, _('Reload'))
                 Hovertip(self._lockButton, _('Lock/unlock'))
-                Hovertip(self._discardButton, _('Discard manuscript'))
+                Hovertip(self._updateButton, _('Update from manuscript'))
                 Hovertip(self._manuscriptButton, _('Export Manuscript for editing'))
                 Hovertip(self._viewBookButton, _('Show Book'))
                 Hovertip(self._viewCharactersButton, _('Show Characters'))
                 Hovertip(self._viewLocationsButton, _('Show Locations'))
                 Hovertip(self._viewItemsButton, _('Show Items'))
-                Hovertip(self._viewResearchButton, _('Show Research'))
-                Hovertip(self._viewPlanningButton, _('Show Planning'))
-                Hovertip(self._viewProjectnotesButton, _('Show Project notes'))
+                Hovertip(self._viewArcsButton, _('Show Arcs'))
                 Hovertip(self._goBackButton, _('Go back in the browsing history'))
                 Hovertip(self._goForwardButton, _('Go forward in the browsing history'))
                 Hovertip(self._propertiesButton, _('Toggle Properties'))
@@ -230,17 +218,14 @@ class Plugin:
     def disable_menu(self):
         """Disable menu entries when no project is open."""
         self._saveButton.config(state='disabled')
-        self._reloadButton.config(state='disabled')
         self._lockButton.config(state='disabled')
-        self._discardButton.config(state='disabled')
+        self._updateButton.config(state='disabled')
         self._manuscriptButton.config(state='disabled')
         self._viewBookButton.config(state='disabled')
         self._viewCharactersButton.config(state='disabled')
         self._viewLocationsButton.config(state='disabled')
         self._viewItemsButton.config(state='disabled')
-        self._viewResearchButton.config(state='disabled')
-        self._viewPlanningButton.config(state='disabled')
-        self._viewProjectnotesButton.config(state='disabled')
+        self._viewArcsButton.config(state='disabled')
         self._goBackButton.config(state='disabled')
         self._goForwardButton.config(state='disabled')
         self._propertiesButton.config(state='disabled')
@@ -249,17 +234,14 @@ class Plugin:
     def enable_menu(self):
         """Enable menu entries when a project is open."""
         self._saveButton.config(state='normal')
-        self._reloadButton.config(state='normal')
         self._lockButton.config(state='normal')
-        self._discardButton.config(state='normal')
+        self._updateButton.config(state='normal')
         self._manuscriptButton.config(state='normal')
         self._viewBookButton.config(state='normal')
         self._viewCharactersButton.config(state='normal')
         self._viewLocationsButton.config(state='normal')
         self._viewItemsButton.config(state='normal')
-        self._viewResearchButton.config(state='normal')
-        self._viewPlanningButton.config(state='normal')
-        self._viewProjectnotesButton.config(state='normal')
+        self._viewArcsButton.config(state='normal')
         self._goBackButton.config(state='normal')
         self._goForwardButton.config(state='normal')
         self._propertiesButton.config(state='normal')
