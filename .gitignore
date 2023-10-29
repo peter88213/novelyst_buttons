@@ -1,3 +1,4 @@
 /build/
+/test/novelyst_buttons.py
 *.pyc
 *.bak

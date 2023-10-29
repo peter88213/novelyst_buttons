@@ -3,9 +3,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.6.0\n"
-"POT-Creation-Date: 2023-08-06 12:43:33\n"
-"PO-Revision-Date: 2023-08-06 12:43:33\n"
+"Project-Id-Version: unknown\n"
+"POT-Creation-Date: 2023-10-29 10:31:51\n"
+"PO-Revision-Date: 2023-10-29 10:39:41\n"
 "Last-Translator: Peter Triesberger\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -15,9 +15,6 @@ msgstr ""
 
 msgid "Buttonbar plugin Online help"
 msgstr "Buttonbar-Plugin Online-Hilfe"
-
-msgid "Discard manuscript"
-msgstr "Manuskript verwerfen"
 
 msgid "Export Manuscript for editing"
 msgstr "Manuskript zum Bearbeiten exportieren"
@@ -31,11 +28,11 @@ msgstr "Vor im Verlauf"
 msgid "Lock/unlock"
 msgstr "Sperren/Entsperren"
 
-msgid "Reload"
-msgstr "Neu laden"
-
 msgid "Save"
 msgstr "Speichern"
+
+msgid "Show Arcs"
+msgstr "Bögen anzeigen"
 
 msgid "Show Book"
 msgstr "Buch anzeigen"
@@ -49,18 +46,12 @@ msgstr "Gegenstände anzeigen"
 msgid "Show Locations"
 msgstr "Schauplätze anzeigen"
 
-msgid "Show Planning"
-msgstr "Planung anzeigen"
-
-msgid "Show Project notes"
-msgstr "Projektnotizen anzeigen"
-
-msgid "Show Research"
-msgstr "Recherche anzeigen"
-
 msgid "Toggle Properties"
 msgstr "Eigenschaften anzeigen/verbergen"
 
 msgid "Toggle Text viewer"
 msgstr "Textbetrachter anzeigen/verbergen"
+
+msgid "Update from manuscript"
+msgstr "Änderungen am Manuskript übernehmen"
 
