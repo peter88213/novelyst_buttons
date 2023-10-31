@@ -14,38 +14,16 @@ from tkinter import ttk
 import locale
 import gettext
 import webbrowser
+from novxlib.novx_globals import *
 
 APPLICATION = 'Button bar plugin'
 
-ROOT_PREFIX = 'rt'
-CHAPTER_PREFIX = 'ch'
-ARC_PREFIX = 'ac'
-SECTION_PREFIX = 'sc'
-ARC_POINT_PREFIX = 'ap'
-CHARACTER_PREFIX = 'cr'
-LOCATION_PREFIX = 'lc'
-ITEM_PREFIX = 'it'
-PRJ_NOTE_PREFIX = 'pn'
-CH_ROOT = f'{ROOT_PREFIX}{CHAPTER_PREFIX}'
-AC_ROOT = f'{ROOT_PREFIX}{ARC_PREFIX}'
-CR_ROOT = f'{ROOT_PREFIX}{CHARACTER_PREFIX}'
-LC_ROOT = f'{ROOT_PREFIX}{LOCATION_PREFIX}'
-IT_ROOT = f'{ROOT_PREFIX}{ITEM_PREFIX}'
-
 # Initialize localization.
-LOCALE_PATH = f'{os.path.dirname(sys.argv[0])}/locale/'
-try:
-    CURRENT_LANGUAGE = locale.getlocale()[0][:2]
-except:
-    # Fallback for old Windows versions.
-    CURRENT_LANGUAGE = locale.getdefaultlocale()[0][:2]
 try:
     t = gettext.translation('novelyst_buttons', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
     _ = t.gettext
 except:
-
-    def _(message):
-        return message
+    pass
 
 ENABLE_HOVERTIPS = True
 
@@ -165,7 +143,7 @@ class Plugin:
         updateFromManuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_updateFromManuscript.png')
         self._updateButton = ttk.Button(self._buttonBar,
                                             image=updateFromManuscriptIcon,
-                                            command=lambda: self._ui.update_from_odt(suffix='_manuscript'))
+                                            command=lambda: self._ui.update_from_odt(suffix=MANUSCRIPT_SUFFIX))
         self._updateButton.pack(side='left')
         self._updateButton.image = updateFromManuscriptIcon
 
@@ -173,7 +151,7 @@ class Plugin:
         manuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_manuscript.png')
         self._manuscriptButton = ttk.Button(self._buttonBar,
                                             image=manuscriptIcon,
-                                            command=lambda:self._ui.export_document('_manuscript'))
+                                            command=lambda:self._ui.export_document(MANUSCRIPT_SUFFIX))
         self._manuscriptButton.pack(side='left')
         self._manuscriptButton.image = manuscriptIcon
 

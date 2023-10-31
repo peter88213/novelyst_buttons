@@ -3,6 +3,7 @@
 	<name>novelyst_buttons</name>
 	<comment></comment>
 	<projects>
+		<project>novxlib</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
