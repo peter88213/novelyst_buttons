@@ -139,14 +139,6 @@ class Plugin:
         self._lockButton.pack(side='left')
         self._lockButton.image = lockIcon
 
-        # "Update from manuscript" button.
-        updateFromManuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_updateFromManuscript.png')
-        self._updateButton = ttk.Button(self._buttonBar,
-                                            image=updateFromManuscriptIcon,
-                                            command=lambda: self._ui.update_from_odt(suffix=MANUSCRIPT_SUFFIX))
-        self._updateButton.pack(side='left')
-        self._updateButton.image = updateFromManuscriptIcon
-
         # "Manuscript" button.
         manuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_manuscript.png')
         self._manuscriptButton = ttk.Button(self._buttonBar,
@@ -154,6 +146,14 @@ class Plugin:
                                             command=lambda:self._ui.export_document(MANUSCRIPT_SUFFIX))
         self._manuscriptButton.pack(side='left')
         self._manuscriptButton.image = manuscriptIcon
+
+        # "Update from manuscript" button.
+        updateFromManuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_updateFromManuscript.png')
+        self._updateButton = ttk.Button(self._buttonBar,
+                                            image=updateFromManuscriptIcon,
+                                            command=lambda: self._ui.update_from_odt(suffix=MANUSCRIPT_SUFFIX))
+        self._updateButton.pack(side='left')
+        self._updateButton.image = updateFromManuscriptIcon
 
         # Reverse order (side='right').
 
