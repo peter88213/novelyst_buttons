@@ -4,7 +4,7 @@ Adds a button bar.
 
 Requires Python 3.6+
 Copyright (c) 2023 Peter Triesberger
-For further information see https://github.com/peter88213/novelyst/novelyst_buttons
+For further information see https://github.com/peter88213/noveltree/novelyst_buttons
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os

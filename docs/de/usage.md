@@ -79,4 +79,4 @@ The Icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), pu
 
 # Lizenz
 
-Dies ist quelloffene Software, und das *novelyst_buttons*-Plugin steht unter der GPLv3-Lizenz. Für mehr Details besuchen Sie die[Website der GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.de.html), oder schauen Sie sich die [LICENSE](https://github.com/peter88213/novelyst_buttons/blob/main/LICENSE)-Datei an.
+Dies ist quelloffene Software, und das *novelyst_buttons*-Plugin steht unter der GPLv3-Lizenz. Für mehr Details besuchen Sie die[Website der GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.de.html), oder schauen Sie sich die [LICENSE](https://github.com/peter88213/noveltree_buttons/blob/main/LICENSE)-Datei an.
