@@ -169,7 +169,7 @@ class Plugin:
         propertiesIcon = tk.PhotoImage(file=f'{iconPath}/nb_properties.png')
         self._propertiesButton = ttk.Button(self._buttonBar,
                                             image=propertiesIcon,
-                                            command=self._ui.toggle_propertiesView)
+                                            command=self._ui.toggle_properties_view)
         self._propertiesButton.pack(side='right')
         self._propertiesButton.image = propertiesIcon
 
@@ -177,7 +177,7 @@ class Plugin:
         viewerIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewer.png')
         self._viewerButton = ttk.Button(self._buttonBar,
                                         image=viewerIcon,
-                                        command=self._ui.toggle_contentsView)
+                                        command=self._ui.toggle_contents_view)
         self._viewerButton.pack(side='right')
         self._viewerButton.image = viewerIcon
 
