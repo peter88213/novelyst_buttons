@@ -120,6 +120,14 @@ class Plugin:
         self._viewArcsButton.pack(side='left')
         self._viewArcsButton.image = viewArcsIcon
 
+        # "View Projectnotes" button.
+        viewProjectnotesIcon = tk.PhotoImage(file=f'{iconPath}/nb_viewProjectnotes.png')
+        self._viewProjectnotesButton = ttk.Button(self._buttonBar,
+                                            image=viewProjectnotesIcon,
+                                            command=lambda: self._ui.tv.show_branch(PN_ROOT))
+        self._viewProjectnotesButton.pack(side='left')
+        self._viewProjectnotesButton.image = viewProjectnotesIcon
+
         # Separator.
         tk.Frame(self._buttonBar, bg='light gray', width=1).pack(side='left', fill='y', padx=4)
 
