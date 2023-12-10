@@ -1,14 +1,14 @@
-[Projekt-Homepage](https://peter88213.github.io/novelyst_buttons) > Gebrauchsanleitung
+[Projekt-Homepage](https://peter88213.github.io/noveltree_buttons) > Gebrauchsanleitung
 
 --- 
 
-Ein [novelyst](https://peter88213.github.io/novelyst/)-Plugin providing buttons for frequently used actions. 
+Ein [noveltree](https://peter88213.github.io/noveltree/)-Plugin providing buttons for frequently used actions. 
 
 ---
 
 # Installation
 
-Wenn [novelyst](https://peter88213.github.io/novelyst/) installiert ist, installiert das Setup-Skript automatisch das*novelyst_buttons*-Plugin im *novelyst* Plugin-Verzeichnis.
+Wenn [noveltree](https://peter88213.github.io/noveltree/) installiert ist, installiert das Setup-Skript automatisch das*noveltree_buttons*-Plugin im *noveltree* Plugin-Verzeichnis.
 
 ## Optionen
 
@@ -79,4 +79,4 @@ The Icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), pu
 
 # Lizenz
 
-Dies ist quelloffene Software, und das *novelyst_buttons*-Plugin steht unter der GPLv3-Lizenz. Für mehr Details besuchen Sie die[Website der GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.de.html), oder schauen Sie sich die [LICENSE](https://github.com/peter88213/noveltree_buttons/blob/main/LICENSE)-Datei an.
+Dies ist quelloffene Software, und das *noveltree_buttons*-Plugin steht unter der GPLv3-Lizenz. Für mehr Details besuchen Sie die[Website der GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.de.html), oder schauen Sie sich die [LICENSE](https://github.com/peter88213/noveltree_buttons/blob/main/LICENSE)-Datei an.

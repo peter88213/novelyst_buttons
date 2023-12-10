@@ -1,11 +1,11 @@
-# novelyst_buttons Dictionary (English-German)
+# nv_buttons Dictionary (English-German)
 # Copyright (C) 2022 Peter Triesberger
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.0.3\n"
-"POT-Creation-Date: 2023-11-06 09:33:59\n"
-"PO-Revision-Date: 2023-11-06 09:33:59\n"
+"Project-Id-Version: 2.0.4\n"
+"POT-Creation-Date: 2023-12-10 14:41:07\n"
+"PO-Revision-Date: 2023-12-10 14:41:07\n"
 "Last-Translator: Peter Triesberger\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"

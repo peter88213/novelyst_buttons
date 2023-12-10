@@ -1,10 +1,10 @@
-# novelyst_buttons Dictionary
+# nv_buttons Dictionary
 # Copyright (C) 2023 Peter Triesberger
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.0.3\n"
-"POT-Creation-Date: 2023-11-06 09:33:59\n"
+"Project-Id-Version: 2.0.4\n"
+"POT-Creation-Date: 2023-12-10 14:41:07\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"

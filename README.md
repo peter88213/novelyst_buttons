@@ -1,13 +1,13 @@
-# novelyst_buttons
+# noveltree_buttons
 
-A button bar plugin for [novelyst](https://peter88213.github.io/novelyst)
+A button bar plugin for [noveltree](https://peter88213.github.io/noveltree)
 
 
-For more information, see the [project homepage](https://peter88213.github.io/novelyst_buttons) with description and download instructions.
+For more information, see the [project homepage](https://peter88213.github.io/noveltree_buttons) with description and download instructions.
 
 ## Feedback? Ideas? Feature requests?
 
-You can go to the [novelyst "discussions" forum](https://github.com/peter88213/noveltree/discussions) and start a thread.
+You can go to the [noveltree "discussions" forum](https://github.com/peter88213/noveltree/discussions) and start a thread.
 
 # Contributing
 
@@ -17,7 +17,7 @@ First, you need to know your language code according to ISO 639-1.
 
 For English, this is, for example, `en`, for German, it is `de`.
 
-**NOTE:** The procedure described below is greatly simplified if you create a language pack based on the [novelyst_xx](https://github.com/peter88213/noveltree_xx) template and use the tools provided for this purpose. 
+**NOTE:** The procedure described below is greatly simplified if you create a language pack based on the [noveltree_xx](https://github.com/peter88213/noveltree_xx) template and use the tools provided for this purpose. 
 
 ### Create a message catalog
 
@@ -54,35 +54,35 @@ Before you distribute your translations, you can convert and install the message
 The plugin needs the message catalog in binary format. This is easily achieved using the **msgfmt.py** converter script. 
 You find it in your Python installation, in the **Tools/i18n** subdirectory. If not, you can download the code from [here](https://github.com/python/cpython/blob/main/Tools/i18n/msgfmt.py)
 
-Name the binary file **novelyst_buttons.mo**. 
+Name the binary file **noveltree_buttons.mo**. 
 
 
 ### Install your translation for testing
 
-Add a subdirectory tree to **novelyst/locale**, and place *novelyst_buttons.mo* there, like this:
+Add a subdirectory tree to **noveltree/locale**, and place *noveltree_buttons.mo* there, like this:
 
 ```
 <your home directory>
 └── .novxlib/
-    └── novelyst/
+    └── noveltree/
         └── locale/
             └─ <language code>/
                └─ LC_MESSAGES/
-                  └─ novelyst_buttons.mo
+                  └─ noveltree_buttons.mo
 ```
 
-Then start *novelyst* and see whether your translation works. 
+Then start *noveltree* and see whether your translation works. 
 
-**NOTE:** At startup, *novelyst* tries to load a message dictionary that fits to the system language. If it doesn't find a matching language code in the *locale* directory, it uses English as default language. 
+**NOTE:** At startup, *noveltree* tries to load a message dictionary that fits to the system language. If it doesn't find a matching language code in the *locale* directory, it uses English as default language. 
 
-**HINT:** *novelyst_buttons* comes with German translations. Look at the `de` directory tree, if you need an example. 
+**HINT:** *noveltree_buttons* comes with German translations. Look at the `de` directory tree, if you need an example. 
 
 
 ### Contribute your translations
 
-If *novelyst* works fine with your translations, you can consider contributing it. 
+If *noveltree* works fine with your translations, you can consider contributing it. 
 
-An easy way may be to put a posting in the [novelyst forum](https://github.com/peter88213/noveltree/discussions), appending your  `<your language code>.po` file. 
+An easy way may be to put a posting in the [noveltree forum](https://github.com/peter88213/noveltree/discussions), appending your  `<your language code>.po` file. 
 
 
 
@@ -104,6 +104,6 @@ The Icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), pu
 
 ## License
 
-This is Open Source software, and the *novelyst_buttons* plugin is licensed under GPLv3. See the
+This is Open Source software, and the *noveltree_buttons* plugin is licensed under GPLv3. See the
 [GNU General Public License website](https://www.gnu.org/licenses/gpl-3.0.en.html) for more
 details, or consult the [LICENSE](https://github.com/peter88213/noveltree_buttons/blob/main/LICENSE) file.

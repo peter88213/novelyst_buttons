@@ -1,10 +1,10 @@
-"""Button bar plugin for novelyst.
+"""Button bar plugin for noveltree.
 
 Adds a button bar.
 
 Requires Python 3.6+
 Copyright (c) 2023 Peter Triesberger
-For further information see https://github.com/peter88213/noveltree/novelyst_buttons
+For further information see https://github.com/peter88213/noveltree/noveltree_buttons
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
@@ -20,7 +20,7 @@ APPLICATION = 'Button bar plugin'
 
 # Initialize localization.
 try:
-    t = gettext.translation('novelyst_buttons', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
+    t = gettext.translation('noveltree_buttons', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
     _ = t.gettext
 except:
     pass
@@ -35,13 +35,13 @@ class Plugin:
         disable_menu() -- disable menu entries when no project is open.
         enable_menu() -- enable menu entries when a project is open.
         on_close() -- Actions to be performed when a project is closed.       
-        on_quit() -- Actions to be performed when novelyst is closed.               
+        on_quit() -- Actions to be performed when noveltree is closed.               
     """
     VERSION = '@release'
     NOVELYST_API = '5.0'
     DESCRIPTION = 'A button bar'
-    URL = 'https://peter88213.github.io/novelyst_buttons'
-    _HELP_URL = 'https://peter88213.github.io/novelyst_buttons/usage'
+    URL = 'https://peter88213.github.io/noveltree_buttons'
+    _HELP_URL = 'https://peter88213.github.io/noveltree_buttons/usage'
 
     def install(self, ui):
         """Add a button bar.

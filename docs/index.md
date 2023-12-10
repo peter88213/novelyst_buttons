@@ -1,14 +1,14 @@
-# novelyst_buttons
+# noveltree_buttons
 
-The [novelyst](https://peter88213.github.io/novelyst/) Python program helps authors organize novels.  
+The [noveltree](https://peter88213.github.io/noveltree/) Python program helps authors organize novels.  
 
-*novelyst_buttons* is a plugin providing buttons for frequently used actions. 
+*noveltree_buttons* is a plugin providing buttons for frequently used actions. 
 
 ![Screenshot](Screenshots/screen01.png)
 
 ## Requirements
 
-- [novelyst](https://peter88213.github.io/novelyst/) version 4.35+
+- [noveltree](https://peter88213.github.io/noveltree/) version 4.35+
 
 ### Note for Linux users
 
@@ -16,9 +16,9 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 2.0.3)](https://github.com/peter88213/noveltree_buttons/raw/main/dist/novelyst_buttons_v2.0.3.zip)
+[Download the latest release (version 2.0.4)](https://github.com/peter88213/noveltree_buttons/raw/main/dist/noveltree_buttons_v2.0.4.zip)
 
-- Extract the "novelyst_buttons_v2.0.3" folder from the downloaded zipfile "novelyst_buttons_v2.0.3.zip".
+- Extract the "noveltree_buttons_v2.0.4" folder from the downloaded zipfile "noveltree_buttons_v2.0.4.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---
@@ -39,6 +39,6 @@ The Icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), pu
 
 ## License
 
-This is Open Source software, and the *novelyst_buttons* plugin is licensed under GPLv3. See the
+This is Open Source software, and the *noveltree_buttons* plugin is licensed under GPLv3. See the
 [GNU General Public License website](https://www.gnu.org/licenses/gpl-3.0.en.html) for more
 details, or consult the [LICENSE](https://github.com/peter88213/noveltree_buttons/blob/main/LICENSE) file.

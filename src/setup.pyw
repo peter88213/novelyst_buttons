@@ -35,10 +35,10 @@ def output(text):
 def install(iconSize=16, disableHovertips=False):
     # Install the plugin.
     homePath = str(Path.home()).replace('\\', '/')
-    novelystDir = f'{homePath}/.novelyst'
-    if os.path.isdir(novelystDir):
+    noveltreeDir = f'{homePath}/.noveltree'
+    if os.path.isdir(noveltreeDir):
         if os.path.isfile(f'./{PLUGIN}'):
-            pluginDir = f'{novelystDir}/plugin'
+            pluginDir = f'{noveltreeDir}/plugin'
             os.makedirs(pluginDir, exist_ok=True)
             if disableHovertips:
                 # Patch the code.
@@ -60,7 +60,7 @@ def install(iconSize=16, disableHovertips=False):
 
         # Install the localization files.
         output(f'Copying locale ...')
-        copytree('locale', f'{novelystDir}/locale', dirs_exist_ok=True)
+        copytree('locale', f'{noveltreeDir}/locale', dirs_exist_ok=True)
 
         # Install the icon files.
         output(f'Copying icons ...')
@@ -70,7 +70,7 @@ def install(iconSize=16, disableHovertips=False):
                 output(f'Deleting {pluginDir}/icons/{f} ...')
                 os.remove(f'{pluginDir}/icons/{f}')
     else:
-        output(f'ERROR: Cannot find a novelyst installation at "{novelystDir}"')
+        output(f'ERROR: Cannot find a noveltree installation at "{noveltreeDir}"')
 
 
 if __name__ == '__main__':

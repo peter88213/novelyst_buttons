@@ -1,10 +1,10 @@
-"""Build a novelyst_buttons plugin.
+"""Build a noveltree_buttons plugin.
         
 In order to distribute a single script without dependencies, 
 this script "inlines" all modules imported from the novxlib package.
 
 The novxlib project (see https://github.com/peter88213/novxlib)
-must be located on the same directory level as the novelyst_buttons project. 
+must be located on the same directory level as the noveltree_buttons project. 
 
 Copyright (c) 2023 Peter Triesberger
 For further information see https://github.com/peter88213/noveltree_buttons
@@ -17,8 +17,8 @@ import inliner
 
 SRC = '../src/'
 BUILD = '../test/'
-SOURCE_FILE = f'{SRC}novelyst_buttons.py'
-TARGET_FILE = f'{BUILD}novelyst_buttons.py'
+SOURCE_FILE = f'{SRC}nv_buttons.py'
+TARGET_FILE = f'{BUILD}noveltree_buttons.py'
 
 os.makedirs(BUILD, exist_ok=True)
 
