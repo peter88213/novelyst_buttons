@@ -14,21 +14,17 @@ File structure:
 │   └── src/
 │       ├── translations.py
 │       └── msgfmt.py
-└── noveltree_buttons/
+└── nv_buttons/
     ├── src/ 
     ├── tools/ 
     │   └── translate_de.py
     └── i18n/
         ├── messages.pot
         ├── de.po
-        ├── locale/
-        │   └─ de/
-        │      └─ LC_MESSAGES/
-        │         └─ novxlib.mo
-        └── plugin_locale/
+        └── locale/
             └─ de/
                └─ LC_MESSAGES/
-                  └─ noveltree_buttons.mo
+                  └─ nv_buttons.mo
     
 Copyright (c) 2023 Peter Triesberger
 For further information see https://github.com/peter88213/noveltree_buttons
