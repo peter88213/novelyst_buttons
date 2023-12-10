@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.4\n"
-"POT-Creation-Date: 2023-12-10 14:41:07\n"
+"POT-Creation-Date: 2023-12-10 15:45:29\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -20,6 +20,9 @@ msgstr ""
 msgid "Export Manuscript for editing"
 msgstr ""
 
+msgid "Friday"
+msgstr ""
+
 msgid "Go back in the browsing history"
 msgstr ""
 
@@ -27,6 +30,12 @@ msgid "Go forward in the browsing history"
 msgstr ""
 
 msgid "Lock/unlock"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Saturday"
 msgstr ""
 
 msgid "Save"
@@ -47,11 +56,23 @@ msgstr ""
 msgid "Show Locations"
 msgstr ""
 
+msgid "Sunday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
 msgid "Toggle Properties"
 msgstr ""
 
 msgid "Toggle Text viewer"
 msgstr ""
 
+msgid "Tuesday"
+msgstr ""
+
 msgid "Update from manuscript"
+msgstr ""
+
+msgid "Wednesday"
 msgstr ""

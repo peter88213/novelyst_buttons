@@ -18,14 +18,14 @@ import inliner
 SRC = '../src/'
 BUILD = '../test/'
 SOURCE_FILE = f'{SRC}nv_buttons.py'
-TARGET_FILE = f'{BUILD}noveltree_buttons.py'
+TARGET_FILE = f'{BUILD}nv_buttons.py'
 
 os.makedirs(BUILD, exist_ok=True)
 
 
 def main():
     inliner.run(SOURCE_FILE, TARGET_FILE, 'nvpluginlib', '../../novelyst_buttons/src/')
-    inliner.run(TARGET_FILE, TARGET_FILE, 'novxlib-Alpha', '../../novxlib-Alpha/src/')
+    inliner.run(TARGET_FILE, TARGET_FILE, 'novxlib', '../../novxlib-Alpha/src/')
     print('Done.')
 
 
