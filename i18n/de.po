@@ -3,9 +3,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.0.4\n"
-"POT-Creation-Date: 2023-12-10 15:45:29\n"
-"PO-Revision-Date: 2023-12-10 15:45:29\n"
+"Project-Id-Version: 2.0.5\n"
+"POT-Creation-Date: 2023-12-10 16:28:54\n"
+"PO-Revision-Date: 2023-12-10 16:28:54\n"
 "Last-Translator: Peter Triesberger\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -54,6 +54,9 @@ msgstr "Gegenstände anzeigen"
 
 msgid "Show Locations"
 msgstr "Schauplätze anzeigen"
+
+msgid "Show Project notes"
+msgstr "Projektnotizen anzeigen"
 
 msgid "Sunday"
 msgstr "Sonntag"

@@ -20,7 +20,7 @@ APPLICATION = 'Button bar plugin'
 
 # Initialize localization.
 try:
-    t = gettext.translation('noveltree_buttons', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
+    t = gettext.translation('nv_buttons', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
     _ = t.gettext
 except:
     pass
@@ -196,6 +196,7 @@ class Plugin:
                 Hovertip(self._viewLocationsButton, _('Show Locations'))
                 Hovertip(self._viewItemsButton, _('Show Items'))
                 Hovertip(self._viewArcsButton, _('Show Arcs'))
+                Hovertip(self._viewProjectnotesButton, _('Show Project notes'))
                 Hovertip(self._goBackButton, _('Go back in the browsing history'))
                 Hovertip(self._goForwardButton, _('Go forward in the browsing history'))
                 Hovertip(self._propertiesButton, _('Toggle Properties'))
@@ -212,6 +213,7 @@ class Plugin:
         self._viewLocationsButton.config(state='disabled')
         self._viewItemsButton.config(state='disabled')
         self._viewArcsButton.config(state='disabled')
+        self._viewProjectnotesButton.config(state='disabled')
         self._goBackButton.config(state='disabled')
         self._goForwardButton.config(state='disabled')
         self._propertiesButton.config(state='disabled')
@@ -228,6 +230,7 @@ class Plugin:
         self._viewLocationsButton.config(state='normal')
         self._viewItemsButton.config(state='normal')
         self._viewArcsButton.config(state='normal')
+        self._viewProjectnotesButton.config(state='normal')
         self._goBackButton.config(state='normal')
         self._goForwardButton.config(state='normal')
         self._propertiesButton.config(state='normal')

@@ -16,9 +16,9 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 2.0.4)](https://github.com/peter88213/noveltree_buttons/raw/main/dist/noveltree_buttons_v2.0.4.zip)
+[Download the latest release (version 2.0.5)](https://github.com/peter88213/noveltree_buttons/raw/main/dist/noveltree_buttons_v2.0.5.zip)
 
-- Extract the "noveltree_buttons_v2.0.4" folder from the downloaded zipfile "noveltree_buttons_v2.0.4.zip".
+- Extract the "noveltree_buttons_v2.0.5" folder from the downloaded zipfile "noveltree_buttons_v2.0.5.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---
