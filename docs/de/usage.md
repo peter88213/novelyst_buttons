@@ -1,4 +1,4 @@
-[Projekt-Homepage](https://peter88213.github.io/noveltree_buttons) > Gebrauchsanleitung
+[Projekt-Homepage](https://peter88213.github.io/nv_buttons) > Gebrauchsanleitung
 
 --- 
 
@@ -8,7 +8,7 @@ Ein [noveltree](https://peter88213.github.io/noveltree/)-Plugin providing button
 
 # Installation
 
-Wenn [noveltree](https://peter88213.github.io/noveltree/) installiert ist, installiert das Setup-Skript automatisch das*noveltree_buttons*-Plugin im *noveltree* Plugin-Verzeichnis.
+Wenn [noveltree](https://peter88213.github.io/noveltree/) installiert ist, installiert das Setup-Skript automatisch das*nv_buttons*-Plugin im *noveltree* Plugin-Verzeichnis.
 
 ## Optionen
 
@@ -79,4 +79,4 @@ The Icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), pu
 
 # Lizenz
 
-Dies ist quelloffene Software, und das *noveltree_buttons*-Plugin steht unter der GPLv3-Lizenz. Für mehr Details besuchen Sie die[Website der GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.de.html), oder schauen Sie sich die [LICENSE](https://github.com/peter88213/noveltree_buttons/blob/main/LICENSE)-Datei an.
+Dies ist quelloffene Software, und das *nv_buttons*-Plugin steht unter der GPLv3-Lizenz. Für mehr Details besuchen Sie die[Website der GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.de.html), oder schauen Sie sich die [LICENSE](https://github.com/peter88213/nv_buttons/blob/main/LICENSE)-Datei an.
