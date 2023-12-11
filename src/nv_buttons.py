@@ -47,7 +47,7 @@ class Plugin:
         """Add a button bar.
         
         Positional arguments:
-            ui -- reference to the NovelystTk instance of the application.
+            ui -- reference to the NoveltreeUi instance of the application.
         """
         self._ui = ui
 
