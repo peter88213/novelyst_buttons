@@ -16,9 +16,9 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 2.0.6)](https://github.com/peter88213/nv_buttons/raw/main/dist/nv_buttons_v2.0.6.zip)
+[Download the latest release (version 2.1.0)](https://github.com/peter88213/nv_buttons/raw/main/dist/nv_buttons_v2.1.0.zip)
 
-- Extract the "nv_buttons_v2.0.6" folder from the downloaded zipfile "nv_buttons_v2.0.6.zip".
+- Extract the "nv_buttons_v2.1.0" folder from the downloaded zipfile "nv_buttons_v2.1.0.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
 
 ---

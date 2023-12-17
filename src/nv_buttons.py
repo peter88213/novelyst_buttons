@@ -29,26 +29,21 @@ ENABLE_HOVERTIPS = True
 
 
 class Plugin:
-    """Button bar plugin class.
-    
-    Public methods:
-        disable_menu() -- disable menu entries when no project is open.
-        enable_menu() -- enable menu entries when a project is open.
-        on_close() -- Actions to be performed when a project is closed.       
-        on_quit() -- Actions to be performed when noveltree is closed.               
-    """
+    """Button bar plugin class."""
     VERSION = '@release'
-    NOVELYST_API = '0.1'
+    NOVELYST_API = '0.6'
     DESCRIPTION = 'A button bar'
     URL = 'https://peter88213.github.io/nv_buttons'
     _HELP_URL = 'https://peter88213.github.io/nv_buttons/usage'
 
-    def install(self, ui):
+    def install(self, controller, ui):
         """Add a button bar.
         
         Positional arguments:
-            ui -- reference to the NoveltreeUi instance of the application.
+            controller -- reference to the main controller instance of the application.
+            ui -- reference to the main view instance of the application.
         """
+        self._controller = controller
         self._ui = ui
 
         # Add an entry to the Help menu.
@@ -135,7 +130,7 @@ class Plugin:
         saveIcon = tk.PhotoImage(file=f'{iconPath}/nb_save.png')
         self._saveButton = ttk.Button(self._buttonBar,
                                       image=saveIcon,
-                                      command=self._ui.save_project)
+                                      command=self._controller.save_project)
         self._saveButton.pack(side='left')
         self._saveButton.image = saveIcon
 
@@ -143,7 +138,7 @@ class Plugin:
         lockIcon = tk.PhotoImage(file=f'{iconPath}/nb_lock.png')
         self._lockButton = ttk.Button(self._buttonBar,
                                       image=lockIcon,
-                                      command=self._ui.toggle_lock)
+                                      command=self._controller.toggle_lock)
         self._lockButton.pack(side='left')
         self._lockButton.image = lockIcon
 
@@ -151,7 +146,7 @@ class Plugin:
         manuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_manuscript.png')
         self._manuscriptButton = ttk.Button(self._buttonBar,
                                             image=manuscriptIcon,
-                                            command=lambda:self._ui.export_document(MANUSCRIPT_SUFFIX))
+                                            command=lambda:self._controller.export_document(MANUSCRIPT_SUFFIX))
         self._manuscriptButton.pack(side='left')
         self._manuscriptButton.image = manuscriptIcon
 
@@ -159,7 +154,7 @@ class Plugin:
         updateFromManuscriptIcon = tk.PhotoImage(file=f'{iconPath}/nb_updateFromManuscript.png')
         self._updateButton = ttk.Button(self._buttonBar,
                                             image=updateFromManuscriptIcon,
-                                            command=lambda: self._ui.update_from_odt(suffix=MANUSCRIPT_SUFFIX))
+                                            command=lambda: self._controller.update_from_odt(suffix=MANUSCRIPT_SUFFIX))
         self._updateButton.pack(side='left')
         self._updateButton.image = updateFromManuscriptIcon
 
