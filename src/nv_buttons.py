@@ -7,14 +7,23 @@ Copyright (c) 2024 Peter Triesberger
 For further information see https://github.com/peter88213/nv_buttons
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
+import gettext
 import os
 import sys
-import tkinter as tk
 from tkinter import ttk
-import locale
-import gettext
 import webbrowser
-from novxlib.novx_globals import *
+
+from novxlib.novx_globals import AC_ROOT
+from novxlib.novx_globals import CH_ROOT
+from novxlib.novx_globals import CR_ROOT
+from novxlib.novx_globals import CURRENT_LANGUAGE
+from novxlib.novx_globals import IT_ROOT
+from novxlib.novx_globals import LC_ROOT
+from novxlib.novx_globals import LOCALE_PATH
+from novxlib.novx_globals import MANUSCRIPT_SUFFIX
+from novxlib.novx_globals import PN_ROOT
+from novxlib.novx_globals import _
+import tkinter as tk
 
 APPLICATION = 'Button bar plugin'
 
@@ -36,7 +45,7 @@ class Plugin:
     URL = 'https://peter88213.github.io/nv_buttons'
     _HELP_URL = 'https://peter88213.github.io/nv_buttons/usage'
 
-    def install(self, controller, ui):
+    def install(self, model, ui, controller, prefs):
         """Add a button bar.
         
         Positional arguments:
