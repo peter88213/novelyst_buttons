@@ -40,7 +40,7 @@ ENABLE_HOVERTIPS = True
 class Plugin:
     """Button bar plugin class."""
     VERSION = '@release'
-    NOVELYST_API = '0.6'
+    NOVELYST_API = '0.7'
     DESCRIPTION = 'A button bar'
     URL = 'https://peter88213.github.io/nv_buttons'
     _HELP_URL = 'https://peter88213.github.io/nv_buttons/usage'
@@ -139,7 +139,7 @@ class Plugin:
         saveIcon = tk.PhotoImage(file=f'{iconPath}/nb_save.png')
         self._saveButton = ttk.Button(self._buttonBar,
                                       image=saveIcon,
-                                      command=self._controller.save_project)
+                                      command=self._controller.c_save_project)
         self._saveButton.pack(side='left')
         self._saveButton.image = saveIcon
 
