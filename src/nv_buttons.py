@@ -45,15 +45,15 @@ class Plugin:
     URL = 'https://peter88213.github.io/nv_buttons'
     _HELP_URL = 'https://peter88213.github.io/nv_buttons/usage'
 
-    def install(self, model, ui, controller, prefs):
+    def install(self, model, view, controller, prefs):
         """Add a button bar.
         
         Positional arguments:
             controller -- reference to the main controller instance of the application.
-            ui -- reference to the main view instance of the application.
+            view -- reference to the main view instance of the application.
         """
         self._ctrl = controller
-        self._ui = ui
+        self._ui = view
 
         # Add an entry to the Help menu.
         self._ui.helpMenu.add_command(label=_('Buttonbar plugin Online help'),
