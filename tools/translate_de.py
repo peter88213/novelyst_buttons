@@ -14,7 +14,7 @@ File structure:
 │   └── src/
 │       ├── translations.py
 │       └── msgfmt.py
-└── nv_buttons/
+└── nv_toolbar/
     ├── src/ 
     ├── tools/ 
     │   └── translate_de.py
@@ -24,10 +24,10 @@ File structure:
         └── locale/
             └─ de/
                └─ LC_MESSAGES/
-                  └─ nv_buttons.mo
+                  └─ nv_toolbar.mo
     
 Copyright (c) 2024 Peter Triesberger
-For further information see https://github.com/peter88213/nv_buttons
+For further information see https://github.com/peter88213/nv_toolbar
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
@@ -37,7 +37,7 @@ import translations
 from shutil import copyfile
 import msgfmt
 
-APP_NAME = 'nv_buttons'
+APP_NAME = 'nv_toolbar'
 PO_PATH = '../i18n/de.po'
 MO_PATH = f'../i18n/locale/de/LC_MESSAGES/{APP_NAME}.mo'
 MO_COPY = f'../../kalliope/src/locale/de/LC_MESSAGES/{APP_NAME}.mo'

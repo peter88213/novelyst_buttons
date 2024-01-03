@@ -1,10 +1,10 @@
-"""Button bar plugin for noveltree.
+"""Toolbar plugin for noveltree.
 
-Adds a button bar.
+Adds a toolbar.
 
 Requires Python 3.6+
 Copyright (c) 2024 Peter Triesberger
-For further information see https://github.com/peter88213/nv_buttons
+For further information see https://github.com/peter88213/nv_toolbar
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import gettext
@@ -25,11 +25,11 @@ from novxlib.novx_globals import PN_ROOT
 from novxlib.novx_globals import _
 import tkinter as tk
 
-APPLICATION = 'Button bar plugin'
+APPLICATION = 'Toolbar plugin'
 
 # Initialize localization.
 try:
-    t = gettext.translation('nv_buttons', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
+    t = gettext.translation('nv_toolbar', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
     _ = t.gettext
 except:
     pass
@@ -38,15 +38,15 @@ ENABLE_HOVERTIPS = True
 
 
 class Plugin:
-    """Button bar plugin class."""
+    """Toolbar plugin class."""
     VERSION = '@release'
     NOVELYST_API = '0.7'
-    DESCRIPTION = 'A button bar'
-    URL = 'https://peter88213.github.io/nv_buttons'
-    _HELP_URL = 'https://peter88213.github.io/nv_buttons/usage'
+    DESCRIPTION = 'A toolbar with buttons for frequently used commands'
+    URL = 'https://peter88213.github.io/nv_toolbar'
+    _HELP_URL = 'https://peter88213.github.io/nv_toolbar/usage'
 
     def install(self, model, view, controller, prefs):
-        """Add a button bar.
+        """Add a toolbar.
         
         Positional arguments:
             controller -- reference to the main controller instance of the application.
@@ -61,7 +61,7 @@ class Plugin:
 
         iconPath = f'{os.path.dirname(sys.argv[0])}/plugin/icons'.replace('\\', '/')
 
-        # Add a button bar to the editor window.
+        # Add a toolbar to the editor window.
         self._buttonBar = tk.Frame(self._ui.mainWindow)
         self._buttonBar.pack(expand=False, before=self._ui.appWindow, fill='both')
 

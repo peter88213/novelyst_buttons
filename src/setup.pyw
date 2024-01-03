@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Install the nv_buttons plugin. 
+"""Install the nv_toolbar plugin. 
 
 Version @release
 
 Copyright (c) 2024 Peter Triesberger
-For further information see https://github.com/peter88213/nv_buttons
+For further information see https://github.com/peter88213/nv_toolbar
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
@@ -19,7 +19,7 @@ except ModuleNotFoundError:
     print('The tkinter module is missing. Please install the tk support package for your python3 version.')
     sys.exit(1)
 
-PLUGIN = 'nv_buttons.py'
+PLUGIN = 'nv_toolbar.py'
 VERSION = ' @release'
 
 root = Tk()

@@ -1,15 +1,15 @@
 """Generate a template file (pot) for message translation.
 
-For further information see https://github.com/peter88213/nv_buttons
+For further information see https://github.com/peter88213/nv_toolbar
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
 import sys
-import build_nv_buttons as build_plugin
+import build_nv_toolbar as build_plugin
 sys.path.insert(0, f'{os.getcwd()}/../../novxlib-Alpha/src')
 import pgettext
 
-APP = 'nv_buttons'
+APP = 'nv_toolbar'
 POT_FILE = '../i18n/messages.pot'
 
 
