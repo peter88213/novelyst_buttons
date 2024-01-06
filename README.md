@@ -59,16 +59,15 @@ Name the binary file **nv_toolbar.mo**.
 
 ### Install your translation for testing
 
-Add a subdirectory tree to **noveltree/locale**, and place *nv_toolbar.mo* there, like this:
+Add a subdirectory tree to **~/.noveltree/locale**, and place *nv_toolbar.mo* there, like this:
 
 ```
 <your home directory>
-└── .novxlib/
-    └── noveltree/
-        └── locale/
-            └─ <language code>/
-               └─ LC_MESSAGES/
-                  └─ nv_toolbar.mo
+└── .noveltree/
+    └── locale/
+        └─ <language code>/
+           └─ LC_MESSAGES/
+              └─ nv_toolbar.mo
 ```
 
 Then start *noveltree* and see whether your translation works. 
@@ -94,7 +93,7 @@ See https://github.com/peter88213/novxlib/blob/main/docs/conventions.md
 
 ## Development tools
 
-- [Python](https://python.org) version 3.10.
+- [Python](https://python.org) version 3.11.
 - [Eclipse IDE](https://eclipse.org) with [PyDev](https://pydev.org) and *EGit*.
 - *Apache Ant* is used for building the application.
 
