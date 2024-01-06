@@ -139,7 +139,7 @@ class Plugin:
         saveIcon = tk.PhotoImage(file=f'{iconPath}/nb_save.png')
         self._saveButton = ttk.Button(self._buttonBar,
                                       image=saveIcon,
-                                      command=self._ctrl.c_save_project)
+                                      command=self._ctrl.save_project)
         self._saveButton.pack(side='left')
         self._saveButton.image = saveIcon
 
