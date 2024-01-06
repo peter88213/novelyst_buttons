@@ -16,7 +16,7 @@ To see the tooltips, please make sure that your Python3 installation has the *id
 
 ## Download and install
 
-[Download the latest release (version 2.3.0)](https://github.com/peter88213/nv_toolbar/raw/main/dist/nv_toolbar_v2.3.0.zip)
+[Download the latest release (version 2.3.0)](https://github.com/peter88213/noveltree_toolbar/raw/main/dist/nv_toolbar_v2.3.0.zip)
 
 - Extract the "nv_toolbar_v2.3.0" folder from the downloaded zipfile "nv_toolbar_v2.3.0.zip".
 - Move into this new folder and launch **setup.pyw**. This installs the plugin for the local user.
@@ -41,4 +41,4 @@ The Icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), pu
 
 This is Open Source software, and the *nv_toolbar* plugin is licensed under GPLv3. See the
 [GNU General Public License website](https://www.gnu.org/licenses/gpl-3.0.en.html) for more
-details, or consult the [LICENSE](https://github.com/peter88213/nv_toolbar/blob/main/LICENSE) file.
+details, or consult the [LICENSE](https://github.com/peter88213/noveltree_toolbar/blob/main/LICENSE) file.

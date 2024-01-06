@@ -4,7 +4,7 @@ Adds a toolbar.
 
 Requires Python 3.6+
 Copyright (c) 2024 Peter Triesberger
-For further information see https://github.com/peter88213/nv_toolbar
+For further information see https://github.com/peter88213/noveltree_toolbar
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import gettext
@@ -42,8 +42,8 @@ class Plugin:
     VERSION = '@release'
     NOVELYST_API = '0.7'
     DESCRIPTION = 'A toolbar with buttons for frequently used commands'
-    URL = 'https://peter88213.github.io/nv_toolbar'
-    _HELP_URL = 'https://peter88213.github.io/nv_toolbar/usage'
+    URL = 'https://peter88213.github.io/noveltree_toolbar'
+    _HELP_URL = 'https://peter88213.github.io/noveltree_toolbar/usage'
 
     def install(self, model, view, controller, prefs):
         """Add a toolbar.
