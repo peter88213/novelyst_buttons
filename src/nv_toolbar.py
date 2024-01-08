@@ -40,7 +40,7 @@ ENABLE_HOVERTIPS = True
 class Plugin:
     """Toolbar plugin class."""
     VERSION = '@release'
-    NOVELYST_API = '0.7'
+    NOVELYST_API = '1.0'
     DESCRIPTION = 'A toolbar with buttons for frequently used commands'
     URL = 'https://peter88213.github.io/noveltree_toolbar'
     _HELP_URL = 'https://peter88213.github.io/noveltree_toolbar/usage'

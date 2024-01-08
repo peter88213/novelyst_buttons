@@ -12,7 +12,7 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
 import sys
-sys.path.insert(0, f'{os.getcwd()}/../../novxlib-Alpha/src')
+sys.path.insert(0, f'{os.getcwd()}/../../novxlib/src')
 import inliner
 
 SRC = '../src/'
@@ -25,7 +25,7 @@ os.makedirs(BUILD, exist_ok=True)
 
 def main():
     inliner.run(SOURCE_FILE, TARGET_FILE, 'nvpluginlib', '../../novelyst_buttons/src/')
-    inliner.run(TARGET_FILE, TARGET_FILE, 'novxlib', '../../novxlib-Alpha/src/')
+    inliner.run(TARGET_FILE, TARGET_FILE, 'novxlib', '../../novxlib/src/')
     print('Done.')
 
 
